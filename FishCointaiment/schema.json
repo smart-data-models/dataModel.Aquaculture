@@ -1,33 +1,33 @@
 {
   "$schema": "http://json-schema.org/schema#",
   "$schemaVersion": "0.0",
-  "$id": "https://fiware.github.io/data-models/specs/AgriFood/AgriApp/schema.json",
-  "title": " [FIWARE - domain]",
-  "description": "[This entity describes an object of the domain ]",
+  "$id": "https://smart-data-models.github.io/dataModel.Aquaculture/FishCointaiment/schema.json",
+  "title": " Fish Containment",
+  "description": "",
   "type": "object",
   "allOf": [
     {
-      "$ref": "https://fiware.github.io/data-models/common-schema.json#/definitions/GSMA-Commons"
+      "$ref": "https://smart-data-models.github.io/data-models/common-schema.json#/definitions/GSMA-Commons"
     },
     {
-      "$ref": "https://fiware.github.io/data-models/common-schema.json#/definitions/Location-Commons"
+      "$ref": "https://smart-data-models.github.io/data-models/common-schema.json#/definitions/Location-Commons"
     },
     {
-      "$ref": "https://fiware.github.io/data-models/specs/AgriFood/agrifood-schema.json#/definitions/AgriFood-Commons"
+      "$ref": "https://raw.githubusercontent.com/smart-data-models/dataModel.Agrifood/master/agrifood-schema.json#/definitions/AgriFood-Commons"
     },
     {
       "properties": {
         "type": {
           "type": "string",
           "enum": ["opcion1"],
-          "description": "[NGSI Entity Type]"
+          "description": "NGSI Entity Type"
         },
         "version": {
           "type": "string"
         },
         "hasProvider": {
-          "$ref": "[https://fiware.github.io/data-models/common-schema.json#/definitions/EntityIdentifierType]",
-          "description": "[Provider (Person or Organization) of the application]"
+          "$ref": "https://smart-data-models.github.io/data-models/common-schema.json#/definitions/EntityIdentifierType",
+          "description": "Provider (Person or Organization) of the application"
         },
         "endpoint": {
           "type": "string",

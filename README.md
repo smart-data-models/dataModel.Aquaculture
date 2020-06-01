@@ -4,6 +4,5 @@ MODEL UNDER SPECIFICATION. It means that it is possible that some of the content
 
 This folder is intended to contain data models for Aquaculture: 
 
--   [BreedingOperation]()
--   [FishCointaiment]()
--   [SingleSensor]()
+-   [BreedingOperation](https://github.com/smart-data-models/dataModel.Aquaculture/tree/master/BreedingOperation)
+-   [FishCointaiment](https://github.com/smart-data-models/dataModel.Aquaculture/tree/master/FishCointaiment)
