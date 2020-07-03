@@ -5,4 +5,4 @@ MODEL UNDER SPECIFICATION. It means that it is possible that some of the content
 This folder is intended to contain data models for Aquaculture:
 
 -   [BreedingOperation](https://github.com/smart-data-models/dataModel.Aquaculture/tree/master/BreedingOperation)
--   [FishContaiment](https://github.com/smart-data-models/dataModel.Aquaculture/tree/master/FishContaiment)
+-   [FishContainment](https://github.com/smart-data-models/dataModel.Aquaculture/tree/master/FishContainment)
