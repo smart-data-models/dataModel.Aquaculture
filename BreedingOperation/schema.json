@@ -13,7 +13,7 @@
       "$ref": "https://smart-data-models.github.io/data-models/common-schema.json#/definitions/Location-Commons"
     },
     {
-      "$ref": "https://raw.githubusercontent.com/smart-data-models/dataModel.Agrifood/master/agrifood-schema.json#/definitions/AgriFood-Commons"
+      "$ref": "https://smart-data-models.github.io/dataModel.Agrifood/agrifood-schema.json#/definitions/AgriFood-Commons"
     },
     {
       "properties": {
