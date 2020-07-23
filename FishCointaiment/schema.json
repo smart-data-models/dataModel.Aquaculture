@@ -3,7 +3,7 @@
   "$schemaVersion": "0.0",
   "$id": "https://smart-data-models.github.io/dataModel.Aquaculture/FishCointaiment/schema.json",
   "title": " Fish Containment",
-  "description": "",
+  "description": "Under specification",
   "type": "object",
   "allOf": [
     {
