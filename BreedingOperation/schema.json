@@ -2,7 +2,7 @@
   "$schema": "http://json-schema.org/schema#",
   "$schemaVersion": "0.0",
   "$id": "https://smart-data-models.github.io/dataModel.Aquaculture/BreedingOperation/schema.json",
-  "title": " Breeding operation ",
+  "title": " Breeding operation",
   "description": "Under specification",
   "type": "object",
   "allOf": [
@@ -19,7 +19,7 @@
       "properties": {
         "type": {
           "type": "string",
-          "enum": ["opcion1"],
+          "enum": ["BreedingOperation"],
           "description": "[NGSI Entity Type]"
         },
         "version": {
