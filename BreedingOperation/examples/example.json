@@ -1,5 +1,5 @@
 {
-  "id"; "urn:ngsi:breedingoperation:1"
+  "id":  "urn:ngsi:breedingoperation:1",
   "type": "BreedingOperation",
   "version": "1.0",
   "hasProvider": "urn:ngsi:provider:1",
