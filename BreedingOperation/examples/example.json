@@ -1,1 +1,7 @@
-# this is a sample file expecting the actual examples to be contributed
+{
+  "id":  "urn:ngsi:breedingoperation:1",
+  "type": "BreedingOperation",
+  "version": "1.0",
+  "hasProvider": "urn:ngsi:provider:1",
+  "endpoint": "TBD"
+}

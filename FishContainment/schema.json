@@ -19,7 +19,7 @@
       "properties": {
         "type": {
           "type": "string",
-          "enum": ["opcion1"],
+          "enum": ["FishContainment"],
           "description": "NGSI Entity Type"
         },
         "version": {
