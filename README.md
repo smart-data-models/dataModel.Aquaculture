@@ -2,11 +2,9 @@
 MODEL UNDER SPECIFICATION. It means that it is possible that some of the contents does not exist or they were in a draft version. It will be warned within the documents
 
 The following entity types are available:
-- [BreedingOperation](https://smart-data-models.github.io/dataModel.Aquaculture/BreedingOperation/README.md
-). 
+- [BreedingOperation](https://github.com/smart-data-models/dataModel.Aquaculture/blob/master/BreedingOperation/README.md). 
 
-- [FishContainment](https://smart-data-models.github.io/dataModel.Aquaculture/FishContainment/README.md
-). 
+- [FishContainment](https://github.com/smart-data-models/dataModel.Aquaculture/blob/master/FishContainment/README.md). 
 
 
 No public contributors currently.
