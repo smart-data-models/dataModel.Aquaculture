@@ -5,6 +5,8 @@
 
 ### Specification
 
+Link to the [interactive specification](https://swagger.lab.fiware.org/?url=https://smart-data-models.github.io/dataModel.Aquaculture/FishContainment/swagger.yaml)
+
 Link to the [specification](https://smart-data-models.github.io/dataModel.Aquaculture/FishContainment/doc/spec.md)
 ### Examples
 
