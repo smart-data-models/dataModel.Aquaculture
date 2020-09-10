@@ -1,16 +1,15 @@
-
 ---
 # Copyright (c) 2020 Contributors to Smart-Data-Models
 # see https://github.com/smart-data-models/dataModel.Building
 
 components:
   schemas:
-    BreedingOperation:
-      $ref: 'https://smart-data-models.github.io/dataModel.Aquaculture/BreedingOperation/model.yaml#/BreedingOperation'
+    FishContainment:
+      $ref: 'https://smart-data-models.github.io/dataModel.Aquaculture/FishContainment/model.yaml#/FishContainment'
 info:
   description: |
     ...
-  title: BreedingOperation
+  title: FishContainment
   version: 1.0.0
 openapi: 3.0.0
 paths:
@@ -23,7 +22,7 @@ paths:
           required: true
           schema:
             enum:
-              - BreedingOperation
+              - FishContainment
             type: string
       responses:
         '200':
@@ -33,11 +32,11 @@ paths:
                 keyvalues:
                   summary: Key-Values Pairs
                   value:
-                    - $ref: 'https://smart-data-models.github.io/dataModel.Aquaculture/BreedingOperation/examples/example.json'
+                    - $ref: 'https://smart-data-models.github.io/dataModel.Aquaculture/FishContainment/examples/example.json'
                 normalized:
                   summary: Normalized NGSI-LD
                   value:
-                    - $ref: 'https://smart-data-models.github.io/dataModel.Aquaculture/BreedingOperation/examples/example-normalized.jsonld'
+                    - $ref: 'https://smart-data-models.github.io/dataModel.Aquaculture/BreedingOperation/examples/example.jsonld'
           description: OK
       tags:
         - ngsi-ld
