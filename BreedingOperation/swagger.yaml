@@ -4,12 +4,12 @@
 
 components:
   schemas:
-    FishContainment:
-      $ref: 'https://smart-data-models.github.io/dataModel.Aquaculture/FishContainment/model.yaml#/FishContainment'
+    BreedingOperation:
+      $ref: 'https://smart-data-models.github.io/dataModel.Aquaculture/BreedingOperation/model.yaml#/BreedingOperation'
 info:
   description: |
     ...
-  title: FishContainment
+  title: BreedingOperation
   version: 1.0.0
 openapi: 3.0.0
 paths:
@@ -22,7 +22,7 @@ paths:
           required: true
           schema:
             enum:
-              - FishContainment
+              - BreedingOperation
             type: string
       responses:
         '200':
@@ -32,7 +32,7 @@ paths:
                 keyvalues:
                   summary: Key-Values Pairs
                   value:
-                    - $ref: 'https://smart-data-models.github.io/dataModel.Aquaculture/FishContainment/examples/example.json'
+                    - $ref: 'https://smart-data-models.github.io/dataModel.Aquaculture/BreedingOperation/examples/example.json'
                 normalized:
                   summary: Normalized NGSI-LD
                   value:
