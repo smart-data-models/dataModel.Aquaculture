@@ -6,7 +6,7 @@
 components:
   schemas:
     FishContainment:
-      $ref: 'https://smart-data-models.github.io/Aquaculture/FishContainment/model.yaml#/FishContainment'
+      $ref: 'https://smart-data-models.github.io/dataModel.Aquaculture/FishContainment/model.yaml#/FishContainment'
 info:
   description: |
     ...
@@ -33,11 +33,11 @@ paths:
                 keyvalues:
                   summary: Key-Values Pairs
                   value:
-                    - $ref: 'https://smart-data-models.github.io/Aquaculture/FishContainment/examples/example.json'
+                    - $ref: 'https://smart-data-models.github.io/dataModel.Aquaculture/FishContainment/examples/example.json'
                 normalized:
                   summary: Normalized NGSI-LD
                   value:
-                    - $ref: 'https://smart-data-models.github.io/Aquaculture/FishContainment/examples/example-normalized.jsonld'
+                    - $ref: 'https://smart-data-models.github.io/dataModel.Aquaculture/FishContainment/examples/example-normalized.jsonld'
           description: OK
       tags:
         - ngsi-ld
