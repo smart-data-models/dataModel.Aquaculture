@@ -1,0 +1,15 @@
+{
+  "@context": "https://raw.githubusercontent.com/smart-data-models/data-models/master/context.jsonld",
+  "version": {
+    "type": "DateTime",
+    "value": "1.0"
+  },
+  "hasProvider": {
+    "type": "Relationship",
+    "value": "urn:ngsi:provider:1"
+  },
+  "endpoint": {
+    "type": "Text",
+    "value": "TBD"
+  }
+}
