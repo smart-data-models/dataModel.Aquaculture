@@ -4,6 +4,9 @@
     "type_": "FishContainment",
     "version_": 1,
     "hasProvider_": "urn:ngsi:provider:1",
-    "endpoint_": "TBD"
+    "endpoint_": "TBD",
+    "@context": [
+      "https://raw.githubusercontent.com/smart-data-models/data-models/master/context.jsonld"
+    ]
   }
 ]
