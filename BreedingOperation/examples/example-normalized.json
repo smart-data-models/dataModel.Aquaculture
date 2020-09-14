@@ -1,0 +1,13 @@
+{
+  "id":  "urn:ngsi:breedingoperation:1",
+  "type": "BreedingOperation",
+  "version": {
+    "type": "Text",
+    "value":"1.0"},
+  "hasProvider": {
+    "type": "Text",
+    "value": "urn:ngsi:provider:1"},
+  "endpoint": {
+    "type": "Text",
+    "value":"TBD"}
+}
