@@ -23,7 +23,8 @@
           "description": "[NGSI Entity Type]"
         },
         "version": {
-          "type": "string"
+          "type": "string",
+          "description": "Property. The version of the App"
         },
         "hasProvider": {
           "anyOf": [
@@ -44,7 +45,8 @@
         },
         "endpoint": {
           "type": "string",
-          "format": "uri"
+          "format": "uri",
+          "description": "Property. Model:'http://schema.org/URL'. The digital connection point for the App"
         },
         "category": {
           "type": "array",
@@ -53,7 +55,8 @@
               "type": "string",
               "enum": ["TBD"]
             }
-          ]
+          ],
+          "description": "Property. Defines the type of interaction"
         }
       }
     }
