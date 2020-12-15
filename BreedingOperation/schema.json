@@ -20,11 +20,11 @@
         "type": {
           "type": "string",
           "enum": ["BreedingOperation"],
-          "description": "[NGSI Entity Type]"
+          "description": "Property. NGSI Entity Type. It has to be BreedingOperation"
         },
         "version": {
           "type": "string",
-          "description": "Property. The version of the App"
+          "description": "Property. The version of the operation"
         },
         "hasProvider": {
           "anyOf": [
@@ -46,17 +46,16 @@
         "endpoint": {
           "type": "string",
           "format": "uri",
-          "description": "Property. Model:'http://schema.org/URL'. The digital connection point for the App"
+          "description": "Property. Model:'http://schema.org/URL'. The digital connection point for the operation"
         },
         "category": {
           "type": "array",
           "items": [
             {
-              "type": "string",
-              "enum": ["TBD"]
+              "type": "string"
             }
           ],
-          "description": "Property. Defines the type of interaction"
+          "description": "Property. Defines the type of operation"
         }
       }
     }
