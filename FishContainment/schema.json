@@ -20,11 +20,11 @@
         "type": {
           "type": "string",
           "enum": ["FishContainment"],
-          "description": "NGSI Entity Type"
+          "description": "Property. NGSI Entity Type"
         },
         "version": {
           "type": "string",
-          "description": "Property. The version of the App"
+          "description": "Property. The version of the item"
         },
         "hasProvider": {
           "anyOf": [
@@ -41,22 +41,21 @@
               "description": "Property. Identifier format of any NGSI entity"
             }
           ],
-          "description": "Relationship. Provider (Person or Organization) of the application."
+          "description": "Relationship. Provider (Person or Organization) of the application. Model:'http://schema.org/URL'."
         },
         "endpoint": {
           "type": "string",
           "format": "uri",
-          "description": "Property. Model:'http://schema.org/URL'. The digital connection point for the App"
+          "description": "Property. Model:'http://schema.org/URL'. The digital connection point for the item"
         },
         "category": {
           "type": "array",
           "items": [
             {
-              "type": "string",
-              "enum": ["TBD"]
+              "type": "string"
             }
           ],
-          "description": "Property. List of categories of the app",
+          "description": "Property. List of categories of the item"
         }
       }
     }
