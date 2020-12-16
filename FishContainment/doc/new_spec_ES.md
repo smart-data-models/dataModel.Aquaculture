@@ -1,12 +1,15 @@
 Entidad: FishContainment  
 ========================  
-Esta especificación es una **versión temporal**. Se genera automáticamente a partir de las propiedades documentadas descritas en el schema.json condensadas en el archivo `model.yaml`. Se ha creado un archivo temporal `nuevo_modelo.yaml` en cada modelo de datos para evitar el impacto en los scripts existentes. Por lo tanto, la especificación estará incompleta mientras el schema.json no se actualice al nuevo formato (documentando las propiedades). Una vez actualizado el `modelo.yaml` (`nuevo_modelo.yaml`) necesita ser actualizado también (automáticamente) . Más información en este [link](https://github.com/smart-data-models/data-models/blob/master/specs/warning_message_new_spec.md). Mientras sea un formato provisional cualquier [feedback es bienvenido en este formulario](https://smartdatamodels.org/index.php/submit-an-issue-2/) eligiendo la opción `Feedback on the new specification`.  
+[Licencia abierta](https://github.com/smart-data-models//dataModel.Aquaculture/blob/master/FishContainment/LICENSE.md)  
 
 ## Lista de propiedades  
 
-`address`: La dirección postal.  `alternateName`: Un nombre alternativo para este artículo  `areaServed`: La zona geográfica donde se presta un servicio o se ofrece un artículo.  `category`:   `dataProvider`: Una secuencia de caracteres que identifica al proveedor de la entidad de datos armonizada.  `dateCreated`: Sello de tiempo de creación de la entidad. Normalmente será asignado por la plataforma de almacenamiento.  `dateModified`: Sello de tiempo de la última modificación de la entidad. Esta será normalmente asignada por la plataforma de almacenamiento.  `description`: Una descripción de este artículo  `endpoint`:   `hasProvider`:   `id`:   `location`:   `name`: El nombre de este artículo.  `owner`: Una lista que contiene una secuencia de caracteres codificados JSON que hace referencia a los Ids únicos de los propietarios  `relatedSource`: Lista de identificaciones que la entidad actual puede tener en aplicaciones externas  `seeAlso`:   `source`: Una secuencia de caracteres que da como URL la fuente original de los datos de la entidad. Se recomienda que sea el nombre de dominio completamente calificado del proveedor de la fuente, o la URL del objeto fuente.  `type`: Tipo de entidad NGSI  `version`:   ## Modelo de datos Descripción de las propiedades  
-Ordenados alfabéticamente  
-```yaml  
+- `address`: La dirección postal.  - `alternateName`: Un nombre alternativo para este artículo  - `areaServed`: La zona geográfica en la que se presta un servicio o se ofrece un artículo  - `category`: Lista de categorías del artículo  - `dataProvider`: Una secuencia de caracteres que identifica al proveedor de la entidad de datos armonizada.  - `dateCreated`: Sello de tiempo de creación de la entidad. Normalmente será asignado por la plataforma de almacenamiento.  - `dateModified`: Sello de tiempo de la última modificación de la entidad. Normalmente será asignado por la plataforma de almacenamiento.  - `description`: Una descripción de este artículo  - `endpoint`: El punto de conexión digital para el artículo  - `hasProvider`: Proveedor (persona u organización) de la solicitud  - `id`: Identificador único de la entidad  - `location`:   - `name`: El nombre de este artículo.  - `owner`: Una lista que contiene una secuencia de caracteres codificados JSON que hace referencia a los Ids únicos de los propietarios  - `relatedSource`: Lista de identificaciones que la entidad actual puede tener en aplicaciones externas  - `seeAlso`: lista de uri que apunta a recursos adicionales sobre el tema  - `source`: Una secuencia de caracteres que da como URL la fuente original de los datos de la entidad. Se recomienda que sea el nombre de dominio completamente calificado del proveedor de la fuente, o la URL del objeto fuente.  - `type`: Tipo de entidad NGSI  - `version`: La versión del artículo    
+Propiedades requeridas  
+- `id`  - `type`  ## Modelo de datos Descripción de las propiedades  
+Ordenados alfabéticamente (haga clic para ver los detalles)  
+<details><summary><strong>full yaml details</strong></summary>    
+```yaml  
 FishContainment:    
   description: ""    
   properties:    
@@ -14,32 +17,40 @@ FishContainment:
       description: 'The mailing address.'    
       properties:    
         addressCountry:    
+          description: 'Property. The country. For example, Spain. Model:''https://schema.org/Text'''    
           type: string    
         addressLocality:    
+          description: 'Property. The locality in which the street address is, and which is in the region. Model:''https://schema.org/Text'''    
           type: string    
         addressRegion:    
+          description: 'Property. The region in which the locality is, and which is in the country. Model:''https://schema.org/Text'''    
           type: string    
         areaServed:    
+          description: 'Property. The geographic area where a service or offered item is provided. Model:''https://schema.org/Text'''    
           type: string    
         postOfficeBoxNumber:    
+          description: 'Property. The post office box number for PO box addresses. For example, Spain. Model:''https://schema.org/Text'''    
           type: string    
         postalCode:    
+          description: 'Property. The postal code. For example, Spain. Model:''https://schema.org/Text'''    
           type: string    
         streetAddress:    
+          description: 'Property. The street address. Model:''https://schema.org/Text'''    
           type: string    
       type: Property    
     alternateName:    
       description: 'An alternative name for this item'    
       type: Property    
     areaServed:    
-      description: 'The geographic area where a service or offered item is provided.'    
+      description: 'The geographic area where a service or offered item is provided'    
       type: Property    
+      x-ngsi:    
+        model: https://schema.org/Text    
     category:    
+      description: 'List of categories of the item'    
       items:    
-        - enum:    
-            - TBD    
-          type: string    
-      type: array    
+        - type: string    
+      type: Property    
     dataProvider:    
       description: 'A sequence of characters identifying the provider of the harmonised data entity.'    
       type: Property    
@@ -55,10 +66,13 @@ FishContainment:
       description: 'A description of this item'    
       type: Property    
     endpoint:    
+      description: 'The digital connection point for the item'    
       format: uri    
-      type: string    
+      type: Property    
+      x-ngsi:    
+        model: http://schema.org/URL    
     hasProvider:    
-      anyOf: &fishcontainment_-_properties_-_id_-_anyof    
+      anyOf:    
         - description: 'Property. Identifier format of any NGSI entity'    
           maxLength: 256    
           minLength: 1    
@@ -67,8 +81,22 @@ FishContainment:
         - description: 'Property. Identifier format of any NGSI entity'    
           format: uri    
           type: string    
+      description: 'Provider (Person or Organization) of the application'    
+      type: Relationship    
+      x-ngsi:    
+        model: http://schema.org/URL.    
     id:    
-      anyOf: *fishcontainment_-_properties_-_id_-_anyof    
+      anyOf: &fishcontainment_-_properties_-_owner_-_items_-_anyof    
+        - description: 'Property. Identifier format of any NGSI entity'    
+          maxLength: 256    
+          minLength: 1    
+          pattern: ^[\w\-\.\{\}\$\+\*\[\]`|~^@!,:\\]+$    
+          type: string    
+        - description: 'Property. Identifier format of any NGSI entity'    
+          format: uri    
+          type: string    
+      description: 'Unique identifier of the entity'    
+      type: Property    
     location:    
       $id: https://geojson.org/schema/Geometry.json    
       $schema: "http://json-schema.org/draft-07/schema#"    
@@ -222,7 +250,8 @@ FishContainment:
     owner:    
       description: 'A List containing a JSON encoded sequence of characters referencing the unique Ids of the owner(s)'    
       items:    
-        anyOf: *fishcontainment_-_properties_-_id_-_anyof    
+        anyOf: *fishcontainment_-_properties_-_owner_-_items_-_anyof    
+        description: 'Property. Unique identifier of the entity'    
       type: Property    
     relatedSource:    
       description: 'List of IDs the current entity may have in external applications'    
@@ -230,11 +259,13 @@ FishContainment:
         - type: object    
           values:    
             application:    
-              anyOf: *fishcontainment_-_properties_-_id_-_anyof    
+              anyOf: *fishcontainment_-_properties_-_owner_-_items_-_anyof    
+              description: 'Property. Unique identifier of the entity'    
             applicationEntityId:    
               type: string    
       type: Property    
     seeAlso:    
+      description: 'list of uri pointing to additional resources about the item'    
       oneOf:    
         - items:    
             - format: uri    
@@ -243,6 +274,7 @@ FishContainment:
           type: array    
         - format: uri    
           type: string    
+      type: Property    
     source:    
       description: 'A sequence of characters giving the original source of the entity data as a URL. Recommended to be the fully qualified domain name of the source provider, or the URL to the source object.'    
       type: Property    
@@ -250,14 +282,18 @@ FishContainment:
       description: 'NGSI Entity Type'    
       enum:    
         - FishContainment    
-      type: string    
+      type: Property    
     version:    
-      type: string    
+      description: 'The version of the item'    
+      type: Property    
   required:    
     - id    
     - type    
   type: object    
 ```  
+</details>    
+## Ejemplo de cargas útiles  
+#### FishContainment NGSI V2 key-values Example  
 Aquí hay un ejemplo de una Contención de Peces en formato JSON como valores clave. Esto es compatible con NGSI V2 cuando se utiliza "opciones=valores-clave" y devuelve los datos de contexto de una entidad individual.  
 ```json  
 {  
@@ -268,7 +304,8 @@ FishContainment:
   "endpoint": "TBD"  
 }  
 ```  
-Aquí hay un ejemplo de un Contenedor de Peces en formato JSON como normalizado. Esto es compatible con NGSI V2 cuando se utiliza "opciones=valores clave" y devuelve los datos de contexto de una entidad individual.  
+#### FishContainment NGSI V2 normalizado Ejemplo  
+Aquí hay un ejemplo de un Contenedor de Peces en formato JSON como normalizado. Es compatible con NGSI V2 cuando no se utilizan opciones y devuelve los datos de contexto de una entidad individual.  
 ```json  
 {  
   "id": "urn:ngsi:fishcontainment:1",  
@@ -287,7 +324,8 @@ FishContainment:
   }  
 }  
 ```  
-Aquí hay un ejemplo de una Contención de Peces en formato JSON-LD como valores clave. Es compatible con NGSI-LD cuando no se utilizan opciones y devuelve los datos de contexto de una entidad individual.  
+#### FishContainment NGSI-LD key-values Example  
+Aquí hay un ejemplo de una Contención de Peces en formato JSON-LD como valores clave. Esto es compatible con NGSI-LD cuando se utiliza "opciones=valores-clave" y devuelve los datos de contexto de una entidad individual.  
 ```json  
 [  
   {  
@@ -302,6 +340,7 @@ FishContainment:
   }  
 ]  
 ```  
+#### FishContainment NGSI-LD normalizado Ejemplo  
 Aquí hay un ejemplo de un Contenedor de Peces en formato JSON-LD normalizado. Es compatible con NGSI-LD cuando no se utilizan opciones y devuelve los datos de contexto de una entidad individual.  
 ```json  
 {  
