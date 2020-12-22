@@ -1,3 +1,0 @@
-# FishCointaiment
-
-Under specification
