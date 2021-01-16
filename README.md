@@ -9,7 +9,9 @@ The following entity types are available:
 - [FishContainment](https://github.com/smart-data-models/dataModel.Aquaculture/blob/master/FishContainment/README.md). 
 
 
-No public contributors currently.
+
+### Contributors
+[Link](https://github.com/smart-data-models/dataModel.Aquaculture/blob/master/CONTRIBUTORS.yaml) to the 1 current contributors of the data models of this Subject.
 
 
 ### Contribution
