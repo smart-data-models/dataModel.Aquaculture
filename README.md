@@ -4,7 +4,7 @@ MODEL UNDER SPECIFICATION. It means that it is possible that some of the content
 ### List of data models
 
 The following entity types are available:
-- [BreedingOperation](https://github.com/smart-data-models/dataModel.Aquaculture/blob/master/BreedingOperation/README.md). 
+- [BreedingOperation](https://github.com/smart-data-models/dataModel.Aquaculture/blob/master/BreedingOperation/README.md). Under specification
 
 - [FishContainment](https://github.com/smart-data-models/dataModel.Aquaculture/blob/master/FishContainment/README.md). 
 
