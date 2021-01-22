@@ -2,7 +2,7 @@
 
 ## Description 
 
-
+Under specification
 ### Specification
 
 Link to the [interactive specification](https://swagger.lab.fiware.org/?url=https://smart-data-models.github.io/dataModel.Aquaculture/BreedingOperation/swagger.yaml)
