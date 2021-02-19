@@ -1,0 +1,2 @@
+"id__", "type__", "version__", "hasProvider__", "endpoint__", "@context__0_"
+"urn:ngsi:fishcontainment:1", "FishContainment", "1", "urn:ngsi:provider:1", "TBD", "https://raw.githubusercontent.com/smart-data-models/data-models/master/context.jsonld"
