@@ -1,11 +1,12 @@
 {
-  "@context": "https://raw.githubusercontent.com/smart-data-models/data-models/master/context.jsonld",
+  "id": "urn:ngsi:breedingoperation:1",
+  "type": "BreedingOperation",
   "version": {
-    "type": "DateTime",
+    "type": "Text",
     "value": "1.0"
   },
   "hasProvider": {
-    "type": "Relationship",
+    "type": "Text",
     "value": "urn:ngsi:provider:1"
   },
   "endpoint": {
