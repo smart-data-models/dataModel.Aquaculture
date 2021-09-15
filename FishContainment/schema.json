@@ -4,5 +4,6 @@
     "modelTags": "",
     "$id": "https://smart-data-models.github.io/dataModel.Aquaculture/FishCointaiment/schema.json",
     "title": " Fish Containment",
-    "description": ""
+    "description": "",
+    "type": "object"
 }
