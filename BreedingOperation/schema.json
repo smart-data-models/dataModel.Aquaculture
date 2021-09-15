@@ -4,5 +4,6 @@
     "modelTags": "",
     "$id": "https://smart-data-models.github.io/dataModel.Aquaculture/BreedingOperation/schema.json",
     "title": " Breeding operation",
-    "description": "Under specification"
+    "description": "Under specification",
+    "type": "object"
 }
