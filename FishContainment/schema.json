@@ -3,5 +3,6 @@
     "$schemaVersion": "0.0.1",
     "modelTags": "",
     "$id": "https://smart-data-models.github.io/dataModel.Aquaculture/FishCointaiment/schema.json",
-    "title": " Fish Containment"
+    "title": " Fish Containment",
+    "description": ""
 }
