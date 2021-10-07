@@ -1,0 +1,23 @@
+{
+    "@context": {
+        "address": "https://smartdatamodels.org/dataModel.Aquaculture/address",
+        "alternateName": "https://smartdatamodels.org/dataModel.Aquaculture/alternateName",
+        "areaServed": "https://smartdatamodels.org/dataModel.Aquaculture/areaServed",
+        "category": "https://smartdatamodels.org/dataModel.Aquaculture/category",
+        "dataProvider": "https://smartdatamodels.org/dataModel.Aquaculture/dataProvider",
+        "dateCreated": "https://smartdatamodels.org/dataModel.Aquaculture/dateCreated",
+        "dateModified": "https://smartdatamodels.org/dataModel.Aquaculture/dateModified",
+        "description": "https://smartdatamodels.org/dataModel.Aquaculture/description",
+        "endpoint": "https://smartdatamodels.org/dataModel.Aquaculture/endpoint",
+        "hasProvider": "https://smartdatamodels.org/dataModel.Aquaculture/hasProvider",
+        "id": "@id",
+        "location": "https://smartdatamodels.org/dataModel.Aquaculture/location",
+        "name": "https://smartdatamodels.org/dataModel.Aquaculture/name",
+        "owner": "https://smartdatamodels.org/dataModel.Aquaculture/owner",
+        "relatedSource": "https://smartdatamodels.org/dataModel.Aquaculture/relatedSource",
+        "seeAlso": "https://smartdatamodels.org/dataModel.Aquaculture/seeAlso",
+        "source": "https://smartdatamodels.org/dataModel.Aquaculture/source",
+        "type": "@type",
+        "version": "https://smartdatamodels.org/dataModel.Aquaculture/version"
+    }
+}
