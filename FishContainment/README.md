@@ -6,7 +6,7 @@ Version: 0.0.1
 
 ### Specification
 
-Link to the [interactive specification](https://swagger.lab.fiware.org/?url=https://github.com/smart-data-models/dataModel.Aquaculture/blob/master/FishContainment/swagger.yaml)
+Link to the [interactive specification](https://swagger.lab.fiware.org/?url=https://raw.githubusercontent.com/smart-data-models/dataModel.Aquaculture/master/FishContainment/swagger.yaml)
 
 Link to the [specification](https://github.com/smart-data-models/dataModel.Aquaculture/blob/master/FishContainment/doc/spec.md)
 
