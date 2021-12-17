@@ -1,6 +1,7 @@
 {
   "id": "urn:ngsi-ld:FishContainment:1",
   "type": "FishContainment",
+  "category": "Tank",
   "currents": "NA",
   "dissolvedOxygen": [
     10,

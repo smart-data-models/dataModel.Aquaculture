@@ -1,6 +1,10 @@
 {
   "id": "urn:ngsi-ld:FishContainment:1",
   "type": "FishContainment",
+  "category": {
+    "type": "Property",
+    "value": "Tank"
+  },
   "location": {
     "type": "GeoProperty",
     "value": {
