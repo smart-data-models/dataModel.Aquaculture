@@ -1,4 +1,4 @@
-Entity: FishContainment
+Entity: Feed
 =======================
 
 
@@ -7,42 +7,20 @@ Entity: FishContainment
 [document generated automatically](https://docs.google.com/presentation/d/e/2PACX-1vTs-Ng5dIAwkg91oTTUdt8ua7woBXhPnwavZ0FxgR8BsAI_Ek3C5q97Nd94HS8KhP-r_quD4H0fgyt3/pub?start=false&loop=false&delayms=3000#slide=id.gb715ace035_0_60)
 
 
-## List of properties
+## List of properties  
 
-- `depth`:
-- `videoStream`:
-- `temperature`:
-- `dissolvedOxygen`:
-- `pH`:
-- `redoxPotential`:
-- `turbidity`:
-- `conductivity`:
-- `salinity`
-- `totalDissolvedSolids`:
-- `marineCurrents`:
-- `feedingOperation`:
-- `endedAt`:
-- `startedAt`:
-- `fishDensity`:
-- `fishSpeed` :
-- `fishDirection`:
-- `category` : Tank, Aquarium
-  
 
-Required properties
+
+Required properties  
 - `id`
 - `type`
 
 
-## List of Relationships
-
-  
-- `refSump`:
-- `refFarm`:
-- `observedBy`:
+## List of Relationships  
 
 
-## Data Model description of properties
+
+## Data Model description of properties  
 
 
 

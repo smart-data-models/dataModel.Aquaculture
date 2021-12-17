@@ -1,0 +1,12 @@
+{
+  "id": "urn:ngsi-ld:FishPopulation:01",
+  "type": "FishPopulation",
+  "fishRemoved": 0,
+  "initialNumber": 0,
+  "bodyMasse": 0,
+  "culturedIn": "urn:ngsi-ld:FishContainment:01",
+  "refSpecie": "urn:ngsi-ld:Specie:01",
+  "@context": [
+    "https://raw.githubusercontent.com/smart-data-models/data-models/master/context.jsonld"
+  ]
+}

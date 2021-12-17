@@ -2,7 +2,7 @@
     "$schema": "http://json-schema.org/schema#",
     "$schemaVersion": "0.0.1",
     "modelTags": "",
-    "$id": "https://smart-data-models.github.io/dataModel.Aquaculture/FishCointaiment/schema.json",
+    "$id": "https://smart-data-models.github.io/dataModel.Aquaculture/FishContaiment/schema.json",
     "title": " Fish Containment",
     "description": "",
     "type": "object",
@@ -25,40 +25,69 @@
                     ],
                     "description": "Property. NGSI Entity Type"
                 },
-                "version": {
+                "currents": {
+                    "type": "number",
+                    "description": "Property."
+                },
+                "dissolvedOxygen": {
+                    "type": "number",
+                    "description": "Property."
+                },
+                "feedingOperation": {
+                    "type": "number",
+                    "description": "Property."
+                },
+                "redoxPotential": {
+                    "type": "number",
+                    "description": "Property."
+                },
+                "totalDissolvedSolids": {
+                    "type": "number",
+                    "description": "Property."
+                },
+                "videoStream": {
                     "type": "string",
-                    "description": "Property. The version of the item"
+                    "description": "Property."
                 },
-                "hasProvider": {
-                    "anyOf": [
-                        {
-                            "type": "string",
-                            "minLength": 1,
-                            "maxLength": 256,
-                            "pattern": "^[\\w\\-\\.\\{\\}\\$\\+\\*\\[\\]`|~^@!,:\\\\]+$",
-                            "description": "Property. Identifier format of any NGSI entity"
-                        },
-                        {
-                            "type": "string",
-                            "format": "uri",
-                            "description": "Property. Identifier format of any NGSI entity"
-                        }
-                    ],
-                    "description": "Relationship. Provider (Person or Organization) of the application. Model:'http://schema.org/URL'."
+                "fishDensity": {
+                    "type": "number",
+                    "description": "Property."
                 },
-                "endpoint": {
+                "conductivity": {
+                    "type": "number",
+                    "description": "Property."
+                },
+                "pH": {
+                    "type": "number",
+                    "description": "Property."
+                },
+                "salinity": {
+                    "type": "number",
+                    "description": "Property."
+                },
+                "temperature": {
+                    "type": "number",
+                    "description": "Property."
+                },
+                "turbidity": {
+                    "type": "number",
+                    "description": "Property."
+                },
+                "fishSpeed": {
+                    "type": "number",
+                    "description": "Property."
+                },
+                "fishDirection": {
                     "type": "string",
-                    "format": "uri",
-                    "description": "Property. Model:'http://schema.org/URL'. The digital connection point for the item"
+                    "description": "Property."
                 },
-                "category": {
-                    "type": "array",
-                    "items": [
-                        {
-                            "type": "string"
-                        }
-                    ],
-                    "description": "Property. List of categories of the item"
+                "refSump": {
+                    "type": "string",
+                    "description": "Relationshp."
+                },
+                "refFarm": {
+                    "type": "string",
+                    "description": "Relationshp."
                 }
             }
         }

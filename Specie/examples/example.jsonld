@@ -11,19 +11,6 @@
       ]
     }
   },
-  "refSump": {
-    "type": "Relationship",
-    "object": "urn:ngsi-ld:Sump:1"
-  },
-  "refFarm": {
-    "type": "Relationship",
-    "object": "urn:ngsi-ld:Farm:1"
-  },
-  "depth": {
-    "type": "Property",
-    "value": 10,
-    "unitCode": "MTR"
-  },
   "videoStream": {
     "type": "Property",
     "value": "stream URL",
@@ -33,7 +20,7 @@
     },
     "depth": {
       "type": "Property",
-      "value": 10,
+      "value": 1,
       "unitCode": "MTR"
     }
   },
@@ -61,7 +48,7 @@
       "observedAt": "2020-06-26T21:32:52Z",
       "depth": {
         "type": "Property",
-        "value": 5,
+        "value": 1,
         "unitCode": "MTR"
       },
       "observedBy": {
@@ -328,17 +315,6 @@
       "observedAt": "2021-10-19T14:22:19Z"
     }
   ],
-  "fishSpeed": {
-    "type": "Property",
-    "value": 25.0,
-    "unitCode": "",
-    "observedAt": "2021-10-19T14:22:19Z"
-  },
-  "fishDirection": {
-    "type": "Property",
-    "value": "SW",
-    "observedAt": "2021-10-19T14:22:19Z"
-  },
   "@context": [
     "https://raw.githubusercontent.com/smart-data-models/data-models/master/context.jsonld"
   ]

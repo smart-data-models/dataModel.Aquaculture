@@ -1,0 +1,29 @@
+{
+  "id": "urn:ngsi-ld:FishPopulation:01",
+  "type": "FishPopulation",
+  "fishRemoved":{
+    "type":"Property",
+    "value": 0,
+    "observedAt": ""
+  },
+  "initialNumber":{
+    "type":"Property",
+    "value": 0
+  },
+  "bodyMasse":{
+    "type":"Property",
+    "value": 0
+  },
+  "culturedIn":{
+    "type": "Relationship",
+    "object": "urn:ngsi-ld:FishContainment:01",
+    "observedAt": ""
+  },
+  "refSpecie":{
+    "type": "Relationship",
+    "object":"urn:ngsi-ld:Specie:01"
+  },
+  "@context": [
+    "https://raw.githubusercontent.com/smart-data-models/data-models/master/context.jsonld"
+  ]
+}
