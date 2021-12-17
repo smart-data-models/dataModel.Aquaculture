@@ -1,5 +1,5 @@
 {
-  "id": "urn:ngsi-ld:FishContainment:HCMR:Cage01",
+  "id": "urn:ngsi-ld:FishContainment:1",
   "type": "FishContainment",
   "currents": "NA",
   "dissolvedOxygen": [

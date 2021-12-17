@@ -1,45 +1,6 @@
 {
-  "id": "urn:ngsi-ld:FishContainment:HCMR:Cage01",
-  "type": "FishContainment",
-  "currents": "NA",
-  "dissolvedOxygen": [
-    10,
-    5.4
-  ],
-  "feedingOperation": 10,
-  "redoxPotential": 311.1,
-  "totalDissolvedSolids": 37167,
-  "videoStream": "video stream url",
-  "fishDensity": [
-    -26.0,
-    -24.0,
-    -15.0,
-    -18.0,
-    -27.0,
-    -26.0,
-    -25.0,
-    -26.0,
-    -25.0,
-    -26.0
-  ],
-  "location": {
-    "type": "Point",
-    "coordinates": [
-      24.30623,
-      60.07966
-    ]
-  },
-  "conductivity": 569.0000001,
-  "pH": 8.8,
-  "salinity": 38.12,
-  "temperature": [
-    19.7,
-    19.4
-  ],
-  "turbidity": [
-    20,
-    0
-  ],
+  "id": "urn:ngsi-ld:Specie:1",
+  "type": "Specie",
   "@context": [
   "https://raw.githubusercontent.com/smart-data-models/data-models/master/context.jsonld"
   ]
