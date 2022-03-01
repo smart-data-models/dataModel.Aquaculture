@@ -12,8 +12,5 @@
   "name": "salmon",
   "stomachCapacity": 23,
   "transportPattern": 1.2,
-  "waterUptake": 2,
-  "@context": [
-    "https://raw.githubusercontent.com/smart-data-models/data-models/master/context.jsonld"
-  ]
+  "waterUptake": 2
 }

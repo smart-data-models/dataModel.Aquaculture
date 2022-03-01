@@ -1,0 +1,70 @@
+{
+  "id": "urn:ngsi-ld:Feed:1",
+  "dateCreated": {
+    "type": "Property",
+    "value": {
+      "@type": "DateTime",
+      "@value": "2021-06-21T01:42:26Z"
+    }
+  },
+  "dateModified": {
+    "type": "Property",
+    "value": {
+      "@type": "DateTime",
+      "@value": "2021-11-13T12:08:43Z"
+    }
+  },
+  "name": {
+    "type": "Property",
+    "value": "Grain20"
+  },
+  "owner": {
+    "type": "Property",
+    "value": [
+      "urn:ngsi-ld:Feed:items:DMYD:47961196",
+      "urn:ngsi-ld:Feed:items:FZPW:38870506"
+    ]
+  },
+  "seeAlso": {
+    "type": "Property",
+    "value": [
+      "urn:ngsi-ld:Feed:items:MXLC:68141056"
+    ]
+  },
+  "location": {
+    "type": "Geoproperty",
+    "value": {
+      "type": "Point",
+      "coordinates": [
+        26.560462,
+        -108.083673
+      ]
+    }
+  },
+  "address": {
+    "type": "Property",
+    "value": {
+      "streetAddress": "Le Thalassa – Bat B 444",
+      "addressLocality": "VALBONNE",
+      "addressRegion": "",
+      "addressCountry": "FRANCE",
+      "postalCode": "06560",
+      "postOfficeBoxNumber": ""
+    }
+  },
+  "areaServed": {
+    "type": "Property",
+    "value": "Farm2"
+  },
+  "relatedSource": {
+    "type": "Property",
+    "value": [
+      "urn:ngsi-ld:Feed:items:JCKQ:85722433",
+      "urn:ngsi-ld:Feed:items:QFIQ:55709596"
+    ]
+  },
+  "type": "Feed",
+  "@context": [
+    "https://raw.githubusercontent.com/smart-data-models/data-models/master/context.jsonld"
+  ]
+}

@@ -1,7 +1,15 @@
 {
-  "id": "urn:ngsi-ld:Feeder:1",
+  "id": "urn:ngsi-ld:Feeder:237",
   "type": "Feeder",
+  "name": "Feeder237",
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      26.560462,
+      -108.083673
+    ]
+  },
   "@context": [
-  "https://raw.githubusercontent.com/smart-data-models/data-models/master/context.jsonld"
+    "https://raw.githubusercontent.com/smart-data-models/data-models/master/context.jsonld"
   ]
 }

@@ -1,6 +1,14 @@
 {
   "id": "urn:ngsi-ld:Feed:1",
   "type": "Feed",
+  "name": "grain20",
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      26.560462,
+      -108.083673
+    ]
+  },
   "@context": [
     "https://raw.githubusercontent.com/smart-data-models/data-models/master/context.jsonld"
   ]
