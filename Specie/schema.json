@@ -21,15 +21,64 @@
                 "type": {
                     "type": "string",
                     "enum": [
-                        "FishContainment"
+                        "Specie"
                     ],
                     "description": "Property. NGSI Entity Type"
+                },
+                "name": {
+                    "type": "number",
+                    "description": "Property."
+                },
+                "description": {
+                    "type": "number",
+                    "description": "Property."
+                },
+                "absorptionRatio": {
+                    "type": "number",
+                    "description": "Property."
+                },
+                "stomachCapacity": {
+                    "type": "number",
+                    "description": "Property."
+                },
+                "waterUptake": {
+                    "type": "number",
+                    "description": "Property."
+                },
+                "midgutMaxdur": {
+                    "type": "number",
+                    "description": "Property."
+                },
+                "ingestionDelay": {
+                    "type": "number",
+                    "description": "Property."
+                },
+                "transportPattern": {
+                    "type": "number",
+                    "description": "Property."
+                },
+                "appetiteFactor": {
+                    "type": "number",
+                    "description": "Property."
+                },
+                "midgutVolume": {
+                    "type": "number",
+                    "description": "Property."
+                },
+                "digestionDelay": {
+                    "type": "number",
+                    "description": "Property."
+                },
+                "hasFishPopulation": {
+                    "type": "number",
+                    "description": "Relationship."
                 }
             }
         }
     ],
     "required": [
         "id",
-        "type"
+        "type",
+        "hasFishPopulation"
     ]
 }
