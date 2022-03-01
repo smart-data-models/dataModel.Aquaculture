@@ -57,7 +57,7 @@
         },
         "waterConsumption": {
           "type": "number",
-          "description": "Property. "
+          "description": "Property. Units:'liters'"
         }
       }
     }
