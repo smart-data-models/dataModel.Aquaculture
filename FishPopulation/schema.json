@@ -21,15 +21,36 @@
                 "type": {
                     "type": "string",
                     "enum": [
-                        "FishContainment"
-                    ],
-                    "description": "Property. NGSI Entity Type"
+                        "FishPopulation"
+                    ]
                 }
+            },
+            "fishRemoved": {
+                "type": "number",
+                "description": "Property. Number of removed fishes."
+            },
+            "initialNumber": {
+                "type": "number",
+                "description": "Property. Number of initial number of cultured fishes."
+            },
+            "bodyMasse": {
+                "type": "number",
+                "description": "Property. The average body masse cultured fishes."
+            },
+            "culturedIn": {
+                "type": "number",
+                "description": "Relationship. Reference to the FishContainment."
+            },
+            "refSpecie": {
+                "type": "number",
+                "description": "Relationship. Reference to the Specie."
             }
         }
     ],
     "required": [
         "id",
-        "type"
+        "type",
+        "culturedIn",
+        "refSpecie"
     ]
 }
