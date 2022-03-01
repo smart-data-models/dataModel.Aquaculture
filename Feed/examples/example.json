@@ -1,0 +1,7 @@
+{
+  "id": "urn:ngsi-ld:Feed:1",
+  "type": "Feed",
+  "@context": [
+  "https://raw.githubusercontent.com/smart-data-models/data-models/master/context.jsonld"
+  ]
+}

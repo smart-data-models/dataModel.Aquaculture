@@ -1,7 +1,0 @@
-{
-  "id":  "urn:ngsi:fishcontainment:1",
-  "type": "FishContainment",
-  "version": "1.0",
-  "hasProvider": "urn:ngsi:provider:1",
-  "endpoint": "TBD"
-}
