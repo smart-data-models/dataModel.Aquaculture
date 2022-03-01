@@ -1,27 +1,33 @@
 {
   "id": "urn:ngsi-ld:FishPopulation:1",
   "type": "FishPopulation",
-  "fishRemoved":{
-    "type":"Property",
+  "description":{
+    "type": "Property",
+    "value": "this entity defines a FishPopulation"
+  },
+  "fishRemoved": {
+    "type": "Property",
     "value": 0,
-    "observedAt": ""
+    "observedAt": "2022-02-21T23:55:00Z"
   },
-  "initialNumber":{
-    "type":"Property",
-    "value": 0
+  "initialNumber": {
+    "type": "Property",
+    "value": 50,
+    "observedAt": "2022-01-01T23:55:00Z"
   },
-  "bodyMasse":{
-    "type":"Property",
-    "value": 0
+  "bodyMasse": {
+    "type": "Property",
+    "value": 0,
+    "observedAt": "2022-02-21T23:55:00Z"
   },
-  "culturedIn":{
+  "culturedIn": {
     "type": "Relationship",
     "object": "urn:ngsi-ld:FishContainment:01",
-    "observedAt": ""
+    "observedAt": "2022-02-21T23:55:00Z"
   },
-  "refSpecie":{
+  "refSpecie": {
     "type": "Relationship",
-    "object":"urn:ngsi-ld:Specie:01"
+    "object": "urn:ngsi-ld:Specie:01"
   },
   "@context": [
     "https://raw.githubusercontent.com/smart-data-models/data-models/master/context.jsonld"
