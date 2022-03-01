@@ -1,9 +1,0 @@
-{
-    "@context": {
-        "category": "https://smartdatamodels.org/dataModel.Aquaculture/category",
-        "id": "@id",
-        "location": "ngsi-ld:location",
-        "ngsi-ld": "https://uri.etsi.org/ngsi-ld/",
-        "type": "@type"
-    }
-}
