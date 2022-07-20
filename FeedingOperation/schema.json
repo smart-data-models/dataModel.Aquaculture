@@ -1,70 +1,70 @@
 {
-    "$schema": "http://json-schema.org/schema#",
-    "$schemaVersion": "0.0.1",
-    "modelTags": "",
-    "$id": "https://smart-data-models.github.io/dataModel.Aquaculture/BreedingOperation/schema.json",
-    "title": " Breeding operation",
-    "description": "Under specification",
-    "type": "object",
-    "allOf": [
-        {
-            "$ref": "https://smart-data-models.github.io/data-models/common-schema.json#/definitions/GSMA-Commons"
+  "$schema": "http://json-schema.org/schema#",
+  "$schemaVersion": "0.0.1",
+  "modelTags": "",
+  "$id": "https://smart-data-models.github.io/dataModel.Aquaculture/BreedingOperation/schema.json",
+  "title": " Breeding operation",
+  "description": "Under specification",
+  "type": "object",
+  "allOf": [
+    {
+      "$ref": "https://smart-data-models.github.io/data-models/common-schema.json#/definitions/GSMA-Commons"
+    },
+    {
+      "$ref": "https://smart-data-models.github.io/data-models/common-schema.json#/definitions/Location-Commons"
+    },
+    {
+      "$ref": "https://smart-data-models.github.io/dataModel.Agrifood/agrifood-schema.json#/definitions/AgriFood-Commons"
+    },
+    {
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "BreedingOperation"
+          ],
+          "description": "Property. NGSI Entity Type. It has to be BreedingOperation"
         },
-        {
-            "$ref": "https://smart-data-models.github.io/data-models/common-schema.json#/definitions/Location-Commons"
+        "version": {
+          "type": "string",
+          "description": "Property. The version of the operation"
         },
-        {
-            "$ref": "https://smart-data-models.github.io/dataModel.Agrifood/agrifood-schema.json#/definitions/AgriFood-Commons"
-        },
-        {
-            "properties": {
-                "type": {
-                    "type": "string",
-                    "enum": [
-                        "BreedingOperation"
-                    ],
-                    "description": "Property. NGSI Entity Type. It has to be BreedingOperation"
-                },
-                "version": {
-                    "type": "string",
-                    "description": "Property. The version of the operation"
-                },
-                "hasProvider": {
-                    "anyOf": [
-                        {
-                            "type": "string",
-                            "minLength": 1,
-                            "maxLength": 256,
-                            "pattern": "^[\\w\\-\\.\\{\\}\\$\\+\\*\\[\\]`|~^@!,:\\\\]+$",
-                            "description": "Property. Identifier format of any NGSI entity"
-                        },
-                        {
-                            "type": "string",
-                            "format": "uri",
-                            "description": "Property. Identifier format of any NGSI entity"
-                        }
-                    ],
-                    "description": "Relationship. Provider (Person or Organization) of the application."
-                },
-                "endpoint": {
-                    "type": "string",
-                    "format": "uri",
-                    "description": "Property. Model:'http://schema.org/URL'. The digital connection point for the operation"
-                },
-                "category": {
-                    "type": "array",
-                    "items": [
-                        {
-                            "type": "string"
-                        }
-                    ],
-                    "description": "Property. Defines the type of operation"
-                }
+        "hasProvider": {
+          "anyOf": [
+            {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 256,
+              "pattern": "^[\\w\\-\\.\\{\\}\\$\\+\\*\\[\\]`|~^@!,:\\\\]+$",
+              "description": "Property. Identifier format of any NGSI entity"
+            },
+            {
+              "type": "string",
+              "format": "uri",
+              "description": "Property. Identifier format of any NGSI entity"
             }
+          ],
+          "description": "Relationship. Provider (Person or Organization) of the application."
+        },
+        "endpoint": {
+          "type": "string",
+          "format": "uri",
+          "description": "Property. Model:'http://schema.org/URL'. The digital connection point for the operation"
+        },
+        "category": {
+          "type": "array",
+          "items": [
+            {
+              "type": "string"
+            }
+          ],
+          "description": "Property. Defines the type of operation"
         }
-    ],
-    "required": [
-        "id",
-        "type"
-    ]
+      }
+    }
+  ],
+  "required": [
+    "id",
+    "type"
+  ]
 }

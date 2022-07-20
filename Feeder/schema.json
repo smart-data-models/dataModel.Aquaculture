@@ -3,8 +3,8 @@
   "$schemaVersion": "0.0.1",
   "modelTags": "",
   "$id": "https://smart-data-models.github.io/dataModel.Aquaculture/Feeder/schema.json",
-  "title": " Feeder",
-  "description": "",
+  "title": "Smart Data Models - Feeder",
+  "description": "Device for feeding animals",
   "type": "object",
   "allOf": [
     {

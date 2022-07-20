@@ -3,8 +3,8 @@
   "$schemaVersion": "0.0.1",
   "modelTags": "",
   "$id": "https://smart-data-models.github.io/dataModel.Aquaculture/Feed/schema.json",
-  "title": " Fish Containment",
-  "description": "",
+  "title": "smart Data Models - Feed",
+  "description": "Feed tak for a group of animals",
   "type": "object",
   "allOf": [
     {
