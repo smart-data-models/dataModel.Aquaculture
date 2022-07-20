@@ -1,4 +1,4 @@
-BreedingOperation:
+FeedingOperation:
   description: 'Under specification'
   properties:
     address:
@@ -87,7 +87,7 @@ BreedingOperation:
       x-ngsi:
         type: Relationship
     id:
-      anyOf: &breedingoperation_-_properties_-_owner_-_items_-_anyof
+      anyOf: &feedingoperation_-_properties_-_owner_-_items_-_anyof
         - description: 'Property. Identifier format of any NGSI entity'
           maxLength: 256
           minLength: 1
@@ -260,7 +260,7 @@ BreedingOperation:
     owner:
       description: 'A List containing a JSON encoded sequence of characters referencing the unique Ids of the owner(s)'
       items:
-        anyOf: *breedingoperation_-_properties_-_owner_-_items_-_anyof
+        anyOf: *feedingoperation_-_properties_-_owner_-_items_-_anyof
         description: 'Property. Unique identifier of the entity'
       type: array
       x-ngsi:
@@ -271,7 +271,7 @@ BreedingOperation:
         - type: object
           values:
             application:
-              anyOf: *breedingoperation_-_properties_-_owner_-_items_-_anyof
+              anyOf: *feedingoperation_-_properties_-_owner_-_items_-_anyof
               description: 'Property. Unique identifier of the entity'
             applicationEntityId:
               type: string
@@ -313,7 +313,7 @@ BreedingOperation:
   type: object
   x-derived-from: ""
   x-disclaimer: 'Redistribution and use in source and binary forms, with or without modification, are permitted  provided that the license conditions are met. Copyleft (c) 2021 Contributors to Smart Data Models Program'
-  x-license-url: https://github.com/smart-data-models/dataModel.Aquaculture/blob/master/BreedingOperation/LICENSE.md
+  x-license-url: https://github.com/smart-data-models/dataModel.Aquaculture/blob/master/FeedingOperation/LICENSE.md
   x-model-schema: https://smart-data-models.github.io/dataModel.Aquaculture/BreedingOperation/schema.json
   x-model-tags: ""
   x-version: 0.0.1
