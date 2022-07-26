@@ -1,10 +1,10 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$schemaVersion": "0.0.1",
+  "$schemaVersion": "0.0.2",
   "modelTags": "",
   "$id": "https://smart-data-models.github.io/dataModel.Aquaculture/BreedingOperation/schema.json",
-  "title": " Breeding operation",
-  "description": "Under specification",
+  "title": "Smart Data Models - Feeding operation",
+  "description": "Feeding operation on a group of animals",
   "type": "object",
   "allOf": [
     {
@@ -21,7 +21,7 @@
         "type": {
           "type": "string",
           "enum": [
-            "BreedingOperation"
+            "FeedingOperation"
           ],
           "description": "Property. NGSI Entity Type. It has to be BreedingOperation"
         },
