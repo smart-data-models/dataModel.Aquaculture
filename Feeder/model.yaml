@@ -1,5 +1,5 @@
 Feeder:
-  description: ""
+  description: 'Device for feeding animals'
   properties:
     address:
       description: 'The mailing address'
@@ -241,13 +241,13 @@ Feeder:
     relatedSource:
       description: 'List of IDs the current entity may have in external applications'
       items:
-        - type: object
-          values:
-            application:
-              anyOf: *feeder_-_properties_-_owner_-_items_-_anyof
-              description: 'Property. Unique identifier of the entity'
-            applicationEntityId:
-              type: string
+        properties:
+          application:
+            anyOf: *feeder_-_properties_-_owner_-_items_-_anyof
+            description: 'Property. Unique identifier of the entity'
+          applicationEntityId:
+            type: string
+        type: object
       type: array
       x-ngsi:
         type: Property
