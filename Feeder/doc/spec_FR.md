@@ -3,6 +3,7 @@
 ===============  
 [Licence ouverte] (https://github.com/smart-data-models//dataModel.Aquaculture/blob/master/Feeder/LICENSE.md)  
 [document généré automatiquement] (https://docs.google.com/presentation/d/e/2PACX-1vTs-Ng5dIAwkg91oTTUdt8ua7woBXhPnwavZ0FxgR8BsAI_Ek3C5q97Nd94HS8KhP-r_quD4H0fgyt3/pub?start=false&loop=false&delayms=3000#slide=id.gb715ace035_0_60)  
+Description globale : **Dispositif pour l'alimentation des animaux**  
 version : 0.0.1  
 
 ## Liste des propriétés  
@@ -14,7 +15,7 @@
 <details><summary><strong>full yaml details</strong></summary>    
 ```yaml  
 Feeder:    
-  description: ""    
+  description: 'Device for feeding animals'    
   properties:    
     address:    
       description: 'The mailing address'    
@@ -256,13 +257,13 @@ Feeder:
     relatedSource:    
       description: 'List of IDs the current entity may have in external applications'    
       items:    
-        - type: object    
-          values:    
-            application:    
-              anyOf: *feeder_-_properties_-_owner_-_items_-_anyof    
-              description: 'Property. Unique identifier of the entity'    
-            applicationEntityId:    
-              type: string    
+        properties:    
+          application:    
+            anyOf: *feeder_-_properties_-_owner_-_items_-_anyof    
+            description: 'Property. Unique identifier of the entity'    
+          applicationEntityId:    
+            type: string    
+        type: object    
       type: array    
       x-ngsi:    
         type: Property    
