@@ -3,7 +3,7 @@ Version: 0.0.1
 
 ## Description 
 
-
+Feed tak for a group of animals
 ### Specification
 
 Link to the [interactive specification](https://swagger.lab.fiware.org/?url=https://smart-data-models.github.io/dataModel.Aquaculture/Feed/swagger.yaml)
