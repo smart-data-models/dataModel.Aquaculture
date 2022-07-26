@@ -3,6 +3,7 @@
 ============  
 [Open License](https://github.com/smart-data-models//dataModel.Aquaculture/blob/master/Feed/LICENSE.md)  
 [document generated automatically](https://docs.google.com/presentation/d/e/2PACX-1vTs-Ng5dIAwkg91oTTUdt8ua7woBXhPnwavZ0FxgR8BsAI_Ek3C5q97Nd94HS8KhP-r_quD4H0fgyt3/pub?start=false&loop=false&delayms=3000#slide=id.gb715ace035_0_60)  
+Global description: **Feed tak for a group of animals**  
 version: 0.0.1  
 
 ## List of properties  
@@ -14,7 +15,7 @@
 <details><summary><strong>full yaml details</strong></summary>    
 ```yaml  
 Feed:    
-  description: ""    
+  description: 'Feed tak for a group of animals'    
   properties:    
     address:    
       description: 'The mailing address'    
@@ -256,13 +257,13 @@ Feed:
     relatedSource:    
       description: 'List of IDs the current entity may have in external applications'    
       items:    
-        - type: object    
-          values:    
-            application:    
-              anyOf: *feed_-_properties_-_owner_-_items_-_anyof    
-              description: 'Property. Unique identifier of the entity'    
-            applicationEntityId:    
-              type: string    
+        properties:    
+          application:    
+            anyOf: *feed_-_properties_-_owner_-_items_-_anyof    
+            description: 'Property. Unique identifier of the entity'    
+          applicationEntityId:    
+            type: string    
+        type: object    
       type: array    
       x-ngsi:    
         type: Property    
