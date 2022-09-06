@@ -3,8 +3,8 @@
 =========================  
 [Licencia abierta](https://github.com/smart-data-models//dataModel.Aquaculture/blob/master/FeedingOperation/LICENSE.md)  
 [documento generado automáticamente](https://docs.google.com/presentation/d/e/2PACX-1vTs-Ng5dIAwkg91oTTUdt8ua7woBXhPnwavZ0FxgR8BsAI_Ek3C5q97Nd94HS8KhP-r_quD4H0fgyt3/pub?start=false&loop=false&delayms=3000#slide=id.gb715ace035_0_60)  
-Descripción global: **Sin especificar**  
-versión: 0.0.1  
+Descripción global: **Operación de alimentación en un grupo de animales**  
+versión: 0.0.3  
 
 ## Lista de propiedades  
 
@@ -15,7 +15,7 @@
 <details><summary><strong>full yaml details</strong></summary>    
 ```yaml  
 FeedingOperation:    
-  description: 'Under specification'    
+  description: 'Feeding operation on a group of animals'    
   properties:    
     address:    
       description: 'The mailing address'    
@@ -56,7 +56,7 @@ FeedingOperation:
     category:    
       description: 'Defines the type of operation'    
       items:    
-        - type: string    
+        type: string    
       type: array    
       x-ngsi:    
         type: Property    
@@ -284,13 +284,13 @@ FeedingOperation:
     relatedSource:    
       description: 'List of IDs the current entity may have in external applications'    
       items:    
-        - type: object    
-          values:    
-            application:    
-              anyOf: *feedingoperation_-_properties_-_owner_-_items_-_anyof    
-              description: 'Property. Unique identifier of the entity'    
-            applicationEntityId:    
-              type: string    
+        properties:    
+          application:    
+            anyOf: *feedingoperation_-_properties_-_owner_-_items_-_anyof    
+            description: 'Property. Unique identifier of the entity'    
+          applicationEntityId:    
+            type: string    
+        type: object    
       type: array    
       x-ngsi:    
         type: Property    
@@ -314,7 +314,7 @@ FeedingOperation:
     type:    
       description: 'NGSI Entity Type. It has to be BreedingOperation'    
       enum:    
-        - BreedingOperation    
+        - FeedingOperation    
       type: string    
       x-ngsi:    
         type: Property    
@@ -328,11 +328,11 @@ FeedingOperation:
     - type    
   type: object    
   x-derived-from: ""    
-  x-disclaimer: 'Redistribution and use in source and binary forms, with or without modification, are permitted  provided that the license conditions are met. Copyleft (c) 2021 Contributors to Smart Data Models Program'    
+  x-disclaimer: 'Redistribution and use in source and binary forms, with or without modification, are permitted  provided that the license conditions are met. Copyleft (c) 2022 Contributors to Smart Data Models Program'    
   x-license-url: https://github.com/smart-data-models/dataModel.Aquaculture/blob/master/FeedingOperation/LICENSE.md    
   x-model-schema: https://smart-data-models.github.io/dataModel.Aquaculture/BreedingOperation/schema.json    
   x-model-tags: ""    
-  x-version: 0.0.1    
+  x-version: 0.0.3    
 ```  
 </details>    
 ## Ejemplo de carga útil  
