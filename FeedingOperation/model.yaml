@@ -1,5 +1,5 @@
 FeedingOperation:
-  description: 'Under specification'
+  description: 'Feeding operation on a group of animals'
   properties:
     address:
       description: 'The mailing address'
@@ -40,7 +40,7 @@ FeedingOperation:
     category:
       description: 'Defines the type of operation'
       items:
-        - type: string
+        type: string
       type: array
       x-ngsi:
         type: Property
@@ -268,13 +268,13 @@ FeedingOperation:
     relatedSource:
       description: 'List of IDs the current entity may have in external applications'
       items:
-        - type: object
-          values:
-            application:
-              anyOf: *feedingoperation_-_properties_-_owner_-_items_-_anyof
-              description: 'Property. Unique identifier of the entity'
-            applicationEntityId:
-              type: string
+        properties:
+          application:
+            anyOf: *feedingoperation_-_properties_-_owner_-_items_-_anyof
+            description: 'Property. Unique identifier of the entity'
+          applicationEntityId:
+            type: string
+        type: object
       type: array
       x-ngsi:
         type: Property
@@ -298,7 +298,7 @@ FeedingOperation:
     type:
       description: 'NGSI Entity Type. It has to be BreedingOperation'
       enum:
-        - BreedingOperation
+        - FeedingOperation
       type: string
       x-ngsi:
         type: Property
@@ -312,8 +312,8 @@ FeedingOperation:
     - type
   type: object
   x-derived-from: ""
-  x-disclaimer: 'Redistribution and use in source and binary forms, with or without modification, are permitted  provided that the license conditions are met. Copyleft (c) 2021 Contributors to Smart Data Models Program'
+  x-disclaimer: 'Redistribution and use in source and binary forms, with or without modification, are permitted  provided that the license conditions are met. Copyleft (c) 2022 Contributors to Smart Data Models Program'
   x-license-url: https://github.com/smart-data-models/dataModel.Aquaculture/blob/master/FeedingOperation/LICENSE.md
   x-model-schema: https://smart-data-models.github.io/dataModel.Aquaculture/BreedingOperation/schema.json
   x-model-tags: ""
-  x-version: 0.0.1
+  x-version: 0.0.3
