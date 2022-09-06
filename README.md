@@ -8,7 +8,7 @@ The following entity types are available:
 
 - [Feeder](https://github.com/smart-data-models/dataModel.Aquaculture/blob/master/Feeder/README.md). Device for feeding animals
 
-- [FeedingOperation](https://github.com/smart-data-models/dataModel.Aquaculture/blob/master/FeedingOperation/README.md). Under specification
+- [FeedingOperation](https://github.com/smart-data-models/dataModel.Aquaculture/blob/master/FeedingOperation/README.md). Feeding operation on a group of animals
 
 - [FishPopulation](https://github.com/smart-data-models/dataModel.Aquaculture/blob/master/FishPopulation/README.md). 
 
