@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$schemaVersion": "0.0.2",
+  "$schemaVersion": "0.0.3",
   "modelTags": "",
   "$id": "https://smart-data-models.github.io/dataModel.Aquaculture/BreedingOperation/schema.json",
   "title": "Smart Data Models - Feeding operation",
@@ -53,12 +53,10 @@
         },
         "category": {
           "type": "array",
-          "items": [
-            {
-              "type": "string"
-            }
-          ],
-          "description": "Property. Defines the type of operation"
+          "description": "Property. Defines the type of operation",
+          "items": {
+            "type": "string"
+          }
         }
       }
     }
