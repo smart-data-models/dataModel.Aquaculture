@@ -1,9 +1,9 @@
 # FeedingOperation
-Version: 0.0.1
+Version: 0.0.3
 
 ## Description 
 
-Under specification
+Feeding operation on a group of animals
 ### Specification
 
 Link to the [interactive specification](https://swagger.lab.fiware.org/?url=https://smart-data-models.github.io/dataModel.Aquaculture/FeedingOperation/swagger.yaml)
