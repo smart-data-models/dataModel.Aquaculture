@@ -25,10 +25,7 @@
                   ],
                   "description": "Property. NGSI-LD Entity Type. This entity type is equivalent to: Cage, Tank, Fish Cage, https://agrovoc.fao.org/browse/agrovoc/en/page/c_29786, https://dbpedia.org/describe/?url=http%3A%2F%2Fdbpedia.org%2Fresource%2FFish_cage&invfp=IFP_OFF&sas=SAME_AS_OFF&distinct=1, https://www.seachoice.org/info-centre/aquaculture/aquaculture-methods/"
               },
-              "currents": {
-                  "type": "number",
-                  "description": "Property."
-              },
+           
               "dissolvedOxygen": {
                   "type": "number",
                   "description": "Property. A water quality parameter of the fish containment. "
