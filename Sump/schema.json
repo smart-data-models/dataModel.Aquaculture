@@ -1,0 +1,63 @@
+{
+    "$schema": "http://json-schema.org/schema#",
+    "$schemaVersion": "0.0.1",
+    "modelTags": "",
+    "$id": "https://smart-data-models.github.io/dataModel.Aquaculture/Sump/schema.json",
+    "title": "Sump",
+    "description": "",
+    "type": "object",
+    "allOf": [
+        {
+            "$ref": "https://smart-data-models.github.io/data-models/common-schema.json#/definitions/GSMA-Commons"
+        },
+        {
+            "$ref": "https://smart-data-models.github.io/data-models/common-schema.json#/definitions/Location-Commons"
+        },
+        {
+            "$ref": "https://smart-data-models.github.io/dataModel.Agrifood/agrifood-schema.json#/definitions/AgriFood-Commons"
+        },
+        {
+            "properties": {
+                "type": {
+                    "type": "string",
+                    "enum": [
+                        "Sump"
+                    ],
+                    "description": "Property. NGSI-LD Entity Type"
+                },
+                "totalGasPressure": {
+                    "type": "number",
+                    "description": "Property. A water quality parameter of the fish containment."
+                },
+                "redoxPotential": {
+                    "type": "number",
+                    "description": "Property. A water quality parameter of the fish containment."
+                },
+                "co2": {
+                    "type": "number",
+                    "description": "Property. A water quality parameter of the fish containment."
+                },
+                "pH": {
+                    "type": "number",
+                    "description": "Property. A water quality parameter of the fish containment."
+                },
+                "waterConsumption": {
+                    "type": "number",
+                    "description": "Property. Volume of water added instead of raw water."
+                },
+                "refFishContainement": {
+                    "type": "number",
+                    "description": "Relationship."
+                },
+                "processes": {
+                    "type": "number",
+                    "description": "Property. Processes realised in the Sump."
+                }
+            }
+        }
+    ],
+    "required": [
+        "id",
+        "type"
+    ]
+}

@@ -1,0 +1,55 @@
+{
+  "id": "urn:ngsi-ld:Specie:1",
+  "type": "Specie",
+  "name": {
+    "type": "Property",
+    "value": "salmon"
+  },
+  "description": {
+    "type": "Property",
+    "value": "this entity defines sientific parameters of a Specie"
+  },
+  "absorptionRatio": {
+    "type": "Property",
+    "value": "absorptionRatio"
+  },
+  "stomachCapacity": {
+    "type": "Property",
+    "value": "stomachCapacity"
+  },
+  "waterUptake": {
+    "type": "Property",
+    "value": "waterUptake"
+  },
+  "midgutMaxdur": {
+    "type": "Property",
+    "value": "midgutMaxdur"
+  },
+  "ingestionDelay": {
+    "type": "Property",
+    "value": "ingestionDelay"
+  },
+  "transportPattern": {
+    "type": "Property",
+    "value": "transportPattern"
+  },
+  "appetiteFactor": {
+    "type": "Property",
+    "value": "appetiteFactor"
+  },
+  "midgutVolume": {
+    "type": "Property",
+    "value": "midgutVolume"
+  },
+  "digestionDelay": {
+    "type": "Property",
+    "value": "digestionDelay"
+  },
+  "hasFishPopulation": {
+    "type": "Relationship",
+    "object": "urn:ngsi-ld:FishPopulation:01"
+  },
+  "@context": [
+    "https://raw.githubusercontent.com/smart-data-models/data-models/master/context.jsonld"
+  ]
+}

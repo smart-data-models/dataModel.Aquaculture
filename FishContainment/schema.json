@@ -1,0 +1,99 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "$schemaVersion": "0.0.1",
+  "modelTags": "",
+  "$id": "https://smart-data-models.github.io/dataModel.Aquaculture/FishContaiment/schema.json",
+  "title": " Fish Containment",
+  "description": "",
+  "type": "object",
+  "allOf": [
+      {
+          "$ref": "https://smart-data-models.github.io/data-models/common-schema.json#/definitions/GSMA-Commons"
+      },
+      {
+          "$ref": "https://smart-data-models.github.io/data-models/common-schema.json#/definitions/Location-Commons"
+      },
+      {
+          "$ref": "https://smart-data-models.github.io/dataModel.Agrifood/agrifood-schema.json#/definitions/AgriFood-Commons"
+      },
+      {
+          "properties": {
+              "type": {
+                  "type": "string",
+                  "enum": [
+                      "FishContainment"
+                  ],
+                  "description": "Property. NGSI-LD Entity Type. This entity type is equivalent to: Cage, Tank, Fish Cage, https://agrovoc.fao.org/browse/agrovoc/en/page/c_29786, https://dbpedia.org/describe/?url=http%3A%2F%2Fdbpedia.org%2Fresource%2FFish_cage&invfp=IFP_OFF&sas=SAME_AS_OFF&distinct=1, https://www.seachoice.org/info-centre/aquaculture/aquaculture-methods/"
+              },
+              "currents": {
+                  "type": "number",
+                  "description": "Property."
+              },
+              "dissolvedOxygen": {
+                  "type": "number",
+                  "description": "Property. A water quality parameter of the fish containment. "
+              },
+              "feedingOperation": {
+                  "type": "number",
+                  "description": "Property. Feeding Operation (hand-feeding, blower feeding, automatic feeders or demand feeders) may affect tilapia performance. Hand-feeding is recommended in small-scale tilapia farms because it allows the feeder to regulate the amount of feed required, prevent overfeeding and observe fish behaviour and feeding activity. This entity type is equivalent to: feeding methods, fish feeding http://aims.fao.org/aos/agrovoc/c_2922, feeding of animals: https://www.eionet.europa.eu/gemet/en/concept/3151 "
+              },
+              "redoxPotential": {
+                  "type": "number",
+                  "description": "Property. A water quality parameter of the fish containment."
+              },
+              "totalDissolvedSolids": {
+                  "type": "number",
+                  "description": "Property. A water quality parameter of the fish containment."
+              },
+              "videoStream": {
+                  "type": "string",
+                  "description": "Property. URL/Link to the streaming platfrom of camera installed on the Fish containement."
+              },
+              "fishDensity": {
+                  "type": "number",
+                  "description": "Property. Density is a mass per unit volume of any material (e.g., biomass of fish). Animal density is a measure of the number of organisms that make up a population in a defined area. This entity type is equivalent to: http://www.wurvoc.org/vocabularies/om-1.8/Density, https://agclass.nal.usda.gov/vocabularies/nalt/concept?uri=https%3A//lod.nal.usda.gov/nalt/329985"
+              },
+              "conductivity": {
+                  "type": "number",
+                  "description": "Property. A water quality parameter of the fish containment."
+              },
+              "pH": {
+                  "type": "number",
+                  "description": "Property. A water quality parameter of the fish containment."
+              },
+              "salinity": {
+                  "type": "number",
+                  "description": "Property. A water quality parameter of the fish containment."
+              },
+              "temperature": {
+                  "type": "number",
+                  "description": "Property. A water quality parameter of the fish containment."
+              },
+              "turbidity": {
+                  "type": "number",
+                  "description": "Property. A water quality parameter of the fish containment."
+              },
+              "fishSpeed": {
+                  "type": "number",
+                  "description": "Property. Speed is the time rate at which an object is moving along a path. This entity type is equivalent to: https://www.eionet.europa.eu/gemet/en/concept/7994, speed: http://aims.fao.org/aos/agrovoc/c_24248, velocity: http://aims.fao.org/aos/agrovoc/c_24098"
+              },
+              "fishDirection": {
+                  "type": "string",
+                  "description": "Property. Fish Direction is a measured angle from a reference point"
+              },
+              "refSump": {
+                  "type": "string",
+                  "description": "Relationshp."
+              },
+              "refFarm": {
+                  "type": "string",
+                  "description": "Relationshp."
+              }
+          }
+      }
+  ],
+  "required": [
+      "id",
+      "type"
+  ]
+}
