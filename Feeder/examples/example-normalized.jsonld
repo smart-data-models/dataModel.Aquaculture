@@ -1,70 +1,71 @@
 {
-  "id": "urn:ngsi-ld:Feeder:237",
-  "type": "Feeder",
-  "dateCreated": {
-    "type": "Property",
-    "value": {
-      "@type": "DateTime",
-      "@value": "2021-06-21T01:42:26Z"
-    }
-  },
-  "dateModified": {
-    "type": "Property",
-    "value": {
-      "@type": "DateTime",
-      "@value": "2021-11-13T12:08:43Z"
-    }
-  },
-  "name": {
-    "type": "Property",
-    "value": "Feeder237"
-  },
-  "owner": {
-    "type": "Property",
-    "value": [
-      "urn:ngsi-ld:Feeder:items:DMYD:47961196",
-      "urn:ngsi-ld:Feeder:items:FZPW:38870506"
+    "id": "urn:ngsi-ld:Feeder:237",
+    "type": "Feeder",
+    "dateCreated": {
+        "type": "Property",
+        "value": {
+            "@type": "DateTime",
+            "@value": "2021-06-21T01:42:26Z"
+        }
+    },
+    "dateModified": {
+        "type": "Property",
+        "value": {
+            "@type": "DateTime",
+            "@value": "2021-11-13T12:08:43Z"
+        }
+    },
+    "name": {
+        "type": "Property",
+        "value": "Feeder237"
+    },
+    "owner": {
+        "type": "Property",
+        "value": [
+            "urn:ngsi-ld:Feeder:items:DMYD:47961196",
+            "urn:ngsi-ld:Feeder:items:FZPW:38870506"
+        ]
+    },
+    "seeAlso": {
+        "type": "Property",
+        "value": [
+            "urn:ngsi-ld:Feeder:items:MXLC:68141056"
+        ]
+    },
+    "location": {
+        "type": "Geoproperty",
+        "value": {
+            "type": "Point",
+            "coordinates": [
+                26.560462,
+                -108.083673
+            ]
+        }
+    },
+    "address": {
+        "type": "Property",
+        "value": {
+            "streetAddress": "Le Thalassa \u2013 Bat B 444",
+            "addressLocality": "VALBONNE",
+            "addressRegion": "",
+            "addressCountry": "FRANCE",
+            "postalCode": "06560",
+            "postOfficeBoxNumber": ""
+        }
+    },
+    "areaServed": {
+        "type": "Property",
+        "value": "Farm2"
+    },
+    "relatedSource": {
+        "type": "Property",
+        "value": [
+            "urn:ngsi-ld:Feeder:items:JCKQ:85722433",
+            "urn:ngsi-ld:Feeder:items:QFIQ:55709596"
+        ]
+    },
+    "@context": [
+        "https://raw.githubusercontent.com/smart-data-models/data-models/master/context.jsonld",
+        "https://raw.githubusercontent.com/smart-data-models/dataModel.Aquaculture/master/context.jsonld"
     ]
-  },
-  "seeAlso": {
-    "type": "Property",
-    "value": [
-      "urn:ngsi-ld:Feeder:items:MXLC:68141056"
-    ]
-  },
-  "location": {
-    "type": "Geoproperty",
-    "value": {
-      "type": "Point",
-      "coordinates": [
-        26.560462,
-        -108.083673
-      ]
-    }
-  },
-  "address": {
-    "type": "Property",
-    "value": {
-      "streetAddress": "Le Thalassa – Bat B 444",
-      "addressLocality": "VALBONNE",
-      "addressRegion": "",
-      "addressCountry": "FRANCE",
-      "postalCode": "06560",
-      "postOfficeBoxNumber": ""
-    }
-  },
-  "areaServed": {
-    "type": "Property",
-    "value": "Farm2"
-  },
-  "relatedSource": {
-    "type": "Property",
-    "value": [
-      "urn:ngsi-ld:Feeder:items:JCKQ:85722433",
-      "urn:ngsi-ld:Feeder:items:QFIQ:55709596"
-    ]
-  },
-  "@context": [
-    "https://raw.githubusercontent.com/smart-data-models/data-models/master/context.jsonld"
-  ]
 }
