@@ -12,6 +12,7 @@
         "value": "1.0"
     },
     "@context": [
-        "https://raw.githubusercontent.com/smart-data-models/data-models/master/context.jsonld"
+        "https://raw.githubusercontent.com/smart-data-models/data-models/master/context.jsonld",
+        "https://raw.githubusercontent.com/smart-data-models/dataModel.Aquaculture/master/context.jsonld"
     ]
 }
