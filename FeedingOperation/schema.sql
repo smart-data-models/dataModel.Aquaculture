@@ -1,0 +1,3 @@
+/* (Beta) Export of data model FeedingOperation of the subject dataModel.Aquaculture for a postgreSQL database. Pending translation of enumerations and multityped attributes */
+CREATE TYPE FeedingOperation_type AS ENUM ('FeedingOperation');
+CREATE TABLE FeedingOperation (address json, alternateName text, areaServed text, category json, dataProvider text, dateCreated timestamp, dateModified timestamp, description text, endpoint text, hasProvider text, id text, location json, name text, owner json, relatedSource json, seeAlso json, source text, type FeedingOperation_type, version text);
