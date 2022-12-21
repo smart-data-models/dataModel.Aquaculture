@@ -1,0 +1,3 @@
+/* (Beta) Export of data model Feed of the subject dataModel.Aquaculture for a postgreSQL database. Pending translation of enumerations and multityped attributes */
+CREATE TYPE Feed_type AS ENUM ('Feed');
+CREATE TABLE Feed (address json, alternateName text, areaServed text, dataProvider text, dateCreated timestamp, dateModified timestamp, description text, id text, location json, name text, owner json, relatedSource json, seeAlso json, source text, type Feed_type);
