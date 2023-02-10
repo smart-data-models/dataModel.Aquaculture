@@ -4,7 +4,7 @@
   "modelTags": "",
   "$id": "https://smart-data-models.github.io/dataModel.Aquaculture/Feeder/schema.json",
   "title": "Smart Data Models - Feeder",
-  "description": "Device for feeding animals",
+  "description": "Actuator for feeding fishes",
   "type": "object",
   "allOf": [
     {
@@ -24,6 +24,46 @@
             "Feeder"
           ],
           "description": "Property. NGSI Entity Type. It has to be Feeder"
+        },
+        "category": {
+          "type": "string",
+          "description": "Property. Indicates the catagory of the Feeder."
+        },
+        "feederStatus": {
+          "type": "number",
+          "description": "Property. Indicates the status of the feeder."
+        },
+        "feederExpectedStatus": {
+          "type": "number",
+          "description": "Property. Indicates the expected status of the feeder following the initial program."
+        },
+        "feedingAuthorisationStatus": {
+          "type": "number",
+          "description": "Property. Indicates if the feeding is authorised or not"
+        },
+        "feederExecutionRation": {
+          "type": "number",
+          "description": "Property. Indicates the ration of feeder execution according to the feeder status and the feeder expected status values"
+        },
+        "programModificationStatus": {
+          "type": "number",
+          "description": "Property.Inducated the date and time of the last program modification with the new values."
+        },
+        "startsAt": {
+          "type": "string",
+          "description": "Object.Inducated the starting time of feeding."
+        },
+        "endsAt": {
+          "type": "string",
+          "description": "Object.Inducated the ending time of feeding."
+        },
+        "timeInterval": {
+          "type": "number",
+          "description": "Object.Inducated the frequency of feeding."
+        },
+        "duration": {
+          "type": "number",
+          "description": "Object.Inducated the time range of each feeding process."
         }
       }
     }

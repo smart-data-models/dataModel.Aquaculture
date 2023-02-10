@@ -11,19 +11,19 @@
   },
   "absorptionRatio": {
     "type": "Property",
-    "value": "absorptionRatio"
+    "value": 0.9
   },
   "stomachCapacity": {
     "type": "Property",
-    "value": "stomachCapacity"
+    "value": 1
   },
   "waterUptake": {
     "type": "Property",
-    "value": "waterUptake"
+    "value": 3.2
   },
   "midgutMaxdur": {
     "type": "Property",
-    "value": "midgutMaxdur"
+    "value": 10
   },
   "ingestionDelay": {
     "type": "Property",
@@ -31,19 +31,19 @@
   },
   "transportPattern": {
     "type": "Property",
-    "value": "transportPattern"
+    "value": 15.2
   },
   "appetiteFactor": {
     "type": "Property",
-    "value": "appetiteFactor"
+    "value": 0.10
   },
   "midgutVolume": {
     "type": "Property",
-    "value": "midgutVolume"
+    "value":  0.90
   },
   "digestionDelay": {
     "type": "Property",
-    "value": "digestionDelay"
+    "value":  0.90
   },
   "hasFishPopulation": {
     "type": "Relationship",

@@ -3,8 +3,8 @@
   "$schemaVersion": "0.0.1",
   "modelTags": "",
   "$id": "https://smart-data-models.github.io/dataModel.Aquaculture/FishContaiment/schema.json",
-  "title": " Fish Containment",
-  "description": "",
+  "title": "Fish Population",
+  "description": "Fish Population is an instance of the Specie entity with an initial number of cultured fishes ",
   "type": "object",
   "allOf": [
     {

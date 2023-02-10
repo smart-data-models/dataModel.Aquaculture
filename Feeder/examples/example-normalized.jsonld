@@ -1,68 +1,41 @@
 {
-  "id": "urn:ngsi-ld:Feeder:237",
+  "id": "urn:ngsi-ld:Feeder:01",
   "type": "Feeder",
-  "dateCreated": {
+  "category": {
+    "type": "Property",
+    "value": "Actuator"
+  },
+  "feederStatus": {
+    "type": "Property",
+    "value": 0.0,
+    "observedAt": "2023-02-10T14:09:33.198Z",
+    "unitCode": "HUR"
+  },
+  "feederExpectedStatus": {
+    "type": "Property",
+    "value": 0.0,
+    "observedAt": "2023-02-05T06:30:02.643Z"
+  },
+  "feedingAuthorisationStatus": {
+    "type": "Property",
+    "value": true,
+    "observedAt": "2022-12-01T10:46:44.378Z"
+  },
+  "feederExecutionRation": {
+    "type": "Property",
+    "value": 100.0,
+    "observedAt": "2023-02-05T06:30:02.643Z",
+    "unitCode": "P1"
+  },
+  "programModificationStatus": {
     "type": "Property",
     "value": {
-      "@type": "DateTime",
-      "@value": "2021-06-21T01:42:26Z"
-    }
-  },
-  "dateModified": {
-    "type": "Property",
-    "value": {
-      "@type": "DateTime",
-      "@value": "2021-11-13T12:08:43Z"
-    }
-  },
-  "name": {
-    "type": "Property",
-    "value": "Feeder237"
-  },
-  "owner": {
-    "type": "Property",
-    "value": [
-      "urn:ngsi-ld:Feeder:items:DMYD:47961196",
-      "urn:ngsi-ld:Feeder:items:FZPW:38870506"
-    ]
-  },
-  "seeAlso": {
-    "type": "Property",
-    "value": [
-      "urn:ngsi-ld:Feeder:items:MXLC:68141056"
-    ]
-  },
-  "location": {
-    "type": "Geoproperty",
-    "value": {
-      "type": "Point",
-      "coordinates": [
-        26.560462,
-        -108.083673
-      ]
-    }
-  },
-  "address": {
-    "type": "Property",
-    "value": {
-      "streetAddress": "Le Thalassa – Bat B 444",
-      "addressLocality": "VALBONNE",
-      "addressRegion": "",
-      "addressCountry": "FRANCE",
-      "postalCode": "06560",
-      "postOfficeBoxNumber": ""
-    }
-  },
-  "areaServed": {
-    "type": "Property",
-    "value": "Farm2"
-  },
-  "relatedSource": {
-    "type": "Property",
-    "value": [
-      "urn:ngsi-ld:Feeder:items:JCKQ:85722433",
-      "urn:ngsi-ld:Feeder:items:QFIQ:55709596"
-    ]
+      "startsAt": "08:00:00",
+      "endsAt": "09:00:00",
+      "timeInterval": 24,
+      "duration": 600
+    },
+    "observedAt": "2023-01-11T08:10:32.099Z"
   },
   "@context": [
     "https://raw.githubusercontent.com/smart-data-models/data-models/master/context.jsonld"

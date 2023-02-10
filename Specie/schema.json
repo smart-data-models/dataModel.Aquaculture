@@ -1,10 +1,10 @@
 {
     "$schema": "http://json-schema.org/schema#",
     "$schemaVersion": "0.0.1",
-    "modelTags": "",
+    "modelTags": "0.0.1",
     "$id": "https://smart-data-models.github.io/dataModel.Aquaculture/Specie/schema.json",
     "title": " Specie",
-    "description": "",
+    "description": "This entity contains a harmonised description of a fishes specie. A specie is a classification comprising related organisms that share common characteristics and are capable of interbreeding.",
     "type": "object",
     "allOf": [
         {
@@ -27,19 +27,19 @@
                 },
                 "name": {
                     "type": "number",
-                    "description": "Property."
+                    "description": "Property. A field to name the Entity"
                 },
                 "description": {
                     "type": "number",
-                    "description": "Property."
+                    "description": "Property. A free field to describe the Entity"
                 },
                 "absorptionRatio": {
                     "type": "number",
-                    "description": "Property."
+                    "description": "Property. Absorption, in general sense, is the act or process of absorbing or assimilating. In biology, absorption pertains particularly to the process of absorbing or assimilating substances into the cell or across the tissues and organs."
                 },
                 "stomachCapacity": {
                     "type": "number",
-                    "description": "Property."
+                    "description": "Property. The stomach serves as a temporary receptacle for storage and mechanical distribution of food before it is passed into the intestine. It's capacity refers to the maximum amount of food storable. Stomach capacity of fish can be estimated indirectly by examining stomach contents of fishes, using the method outlined by Hellawell (1971 and 1972) and Knight and Margraf (1982) as referenced in Gosch et al. 2009 [https://digitalcommons.unl.edu/cgi/viewcontent.cgi?article=1043&context=ncfwrustaff]."
                 },
                 "waterUptake": {
                     "type": "number",
@@ -47,31 +47,31 @@
                 },
                 "midgutMaxdur": {
                     "type": "number",
-                    "description": "Property."
+                    "description": "Property. The midgut is always the longest portion of the gut and ma be coiled into complicated loops (often characteristic for each species) when longer than the visceral cavity. In some fish, the beginning of the hindgut is marked by an increase in diameter of the gut. The posterior end of the hindgut is the anus."
                 },
                 "ingestionDelay": {
                     "type": "number",
-                    "description": "Property."
+                    "description": "Property. The time delay in taking of feed into the digestive system in reference to XX"
                 },
                 "transportPattern": {
                     "type": "number",
-                    "description": "Property."
+                    "description": "Property. The transit pattern in the gut "
                 },
                 "appetiteFactor": {
                     "type": "number",
-                    "description": "Property."
+                    "description": "Property. A numerical constant affecting feed ingestion rate."
                 },
                 "midgutVolume": {
                     "type": "number",
-                    "description": "Property."
+                    "description": "Property. The midgut is always the longest portion of the gut and ma be coiled into complicated loops (often characteristic for each species) when longer than the visceral cavity. In some fish, the beginning of the hindgut is marked by an increase in diameter of the gut. The posterior end of the hindgut is the anus."
                 },
                 "digestionDelay": {
                     "type": "number",
-                    "description": "Property."
+                    "description": "Property. Digestion is the sequence by which food is broken down and chemically converted so that it can be absorbed by the cells of an organism and used to maintain vital bodily functions."
                 },
                 "hasFishPopulation": {
                     "type": "number",
-                    "description": "Relationship."
+                    "description": "Relationship. Relates the Specie entity to its Population"
                 }
             }
         }
