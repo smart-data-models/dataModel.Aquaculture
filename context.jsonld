@@ -1,0 +1,28 @@
+{
+    "@context": {
+        "Feed": "https://smartdatamodels.org/dataModel.Aquaculture/Feed",
+        "Feeder": "https://smartdatamodels.org/dataModel.Aquaculture/Feeder",
+        "FeedingOperation": "https://smartdatamodels.org/dataModel.Aquaculture/FeedingOperation",
+        "FishPopulation": "https://smartdatamodels.org/dataModel.Aquaculture/FishPopulation",
+        "address": "https://smartdatamodels.org/address",
+        "alternateName": "https://smartdatamodels.org/alternateName",
+        "areaServed": "https://smartdatamodels.org/areaServed",
+        "category": "https://smartdatamodels.org/dataModel.Aquaculture/category",
+        "dataProvider": "https://smartdatamodels.org/dataProvider",
+        "dateCreated": "https://smartdatamodels.org/dateCreated",
+        "dateModified": "https://smartdatamodels.org/dateModified",
+        "description": "http://purl.org/dc/terms/description",
+        "endpoint": "ngsi-ld:endpoint",
+        "hasProvider": "https://smartdatamodels.org/dataModel.Aquaculture/hasProvider",
+        "id": "@id",
+        "location": "ngsi-ld:location",
+        "name": "https://smartdatamodels.org/name",
+        "ngsi-ld": "https://uri.etsi.org/ngsi-ld/",
+        "owner": "https://smartdatamodels.org/owner",
+        "relatedSource": "https://smartdatamodels.org/dataModel.Aquaculture/relatedSource",
+        "seeAlso": "https://smartdatamodels.org/seeAlso",
+        "source": "https://smartdatamodels.org/source",
+        "type": "@type",
+        "version": "https://smartdatamodels.org/dataModel.Aquaculture/version"
+    }
+}
