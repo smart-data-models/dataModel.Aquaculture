@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$schemaVersion": "0.0.1",
+  "$schemaVersion": "0.0.2",
   "modelTags": "",
   "$id": "https://smart-data-models.github.io/dataModel.Aquaculture/FishContaiment/schema.json",
   "title": " Fish Containment",
@@ -20,6 +20,7 @@
       "properties": {
         "type": {
           "type": "string",
+          "description": "Property. NGSI entity type. It has to be FishPopulation",
           "enum": [
             "FishPopulation"
           ]
