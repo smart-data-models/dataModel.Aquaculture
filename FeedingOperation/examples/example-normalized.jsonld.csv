@@ -1,0 +1,2 @@
+"id_", "type_", "endpoint__type_", "endpoint__value_", "hasProvider__type_", "hasProvider__object_", "version__type_", "version__value_", "@context__0_"
+"urn:ngsi-ld:breedingoperation:1", "BreedingOperation", "Property", "TBD", "Relationship", "urn:ngsi-ld:provider:1", "Property", "1.0", "https://raw.githubusercontent.com/smart-data-models/dataModel.Aquaculture/master/context.jsonld"
