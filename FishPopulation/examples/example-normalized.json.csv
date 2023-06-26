@@ -1,0 +1,2 @@
+"id_", "type_", "description__type_", "description__value_", "fishRemoved__type_", "fishRemoved__value_", "initialNumber__type_", "initialNumber__value_", "bodyMasse__type_", "bodyMasse__value_", "culturedIn__type_", "culturedIn__value_", "refSpecie__type_", "refSpecie__object_"
+"urn:ngsi-ld:FishPopulation:1", "FishPopulation", "Text", "this entity defines a FishPopulation", "Number", "0", "Number", "50", "Number", "0", "URI", "urn:ngsi-ld:FishContainment:01", "URI", "urn:ngsi-ld:Specie:01"
