@@ -1,2 +1,0 @@
-"id_", "type_", "version__type_", "version__value_", "hasProvider__type_", "hasProvider__value_", "endpoint__type_", "endpoint__value_"
-"urn:ngsi:breedingoperation:1", "BreedingOperation", "Text", "1.0", "Text", "urn:ngsi:provider:1", "Text", "TBD"

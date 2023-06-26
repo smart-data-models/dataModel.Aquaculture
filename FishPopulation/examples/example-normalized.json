@@ -1,0 +1,28 @@
+{
+  "id": "urn:ngsi-ld:FishPopulation:1",
+  "type": "FishPopulation",
+  "description": {
+    "type": "Text",
+    "value": "this entity defines a FishPopulation"
+  },
+  "fishRemoved": {
+    "type": "Number",
+    "value": 0
+  },
+  "initialNumber": {
+    "type": "Number",
+    "value": 50
+  },
+  "bodyMasse": {
+    "type": "Number",
+    "value": 0
+  },
+  "culturedIn": {
+    "type": "URI",
+    "value": "urn:ngsi-ld:FishContainment:01"
+  },
+  "refSpecie": {
+    "type": "URI",
+    "object": "urn:ngsi-ld:Specie:01"
+  }
+}

@@ -1,18 +1,19 @@
 {
-    "endpoint": {
-        "type": "Text",
-        "value": "TBD"
-    },
-    "hasProvider": {
-        "type": "Relationship",
-        "value": "urn:ngsi:provider:1"
-    },
-    "version": {
-        "type": "DateTime",
-        "value": "1.0"
-    },
-    "@context": [
-        "https://raw.githubusercontent.com/smart-data-models/data-models/master/context.jsonld",
-        "https://raw.githubusercontent.com/smart-data-models/dataModel.Aquaculture/master/context.jsonld"
-    ]
+  "id": "urn:ngsi-ld:breedingoperation:1",
+  "type": "BreedingOperation",
+  "endpoint": {
+    "type": "Property",
+    "value": "TBD"
+  },
+  "hasProvider": {
+    "type": "Relationship",
+    "object": "urn:ngsi-ld:provider:1"
+  },
+  "version": {
+    "type": "Property",
+    "value": "1.0"
+  },
+  "@context": [
+    "https://raw.githubusercontent.com/smart-data-models/dataModel.Aquaculture/master/context.jsonld"
+  ]
 }

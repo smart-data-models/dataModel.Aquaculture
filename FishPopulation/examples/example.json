@@ -6,8 +6,5 @@
   "initialNumber": 50,
   "bodyMasse": 0,
   "culturedIn": "urn:ngsi-ld:FishContainment:01",
-  "refSpecie": "urn:ngsi-ld:Specie:01",
-  "@context": [
-    "https://raw.githubusercontent.com/smart-data-models/dataModel.Aquaculture/master/context.jsonld"
-  ]
+  "refSpecie": "urn:ngsi-ld:Specie:01"
 }

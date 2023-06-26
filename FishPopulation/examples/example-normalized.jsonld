@@ -1,0 +1,35 @@
+{
+  "id": "urn:ngsi-ld:FishPopulation:1",
+  "type": "FishPopulation",
+  "description": {
+    "type": "Property",
+    "value": "this entity defines a FishPopulation"
+  },
+  "fishRemoved": {
+    "type": "Property",
+    "value": 0,
+    "observedAt": "2022-02-21T23:55:00Z"
+  },
+  "initialNumber": {
+    "type": "Property",
+    "value": 50,
+    "observedAt": "2022-01-01T23:55:00Z"
+  },
+  "bodyMasse": {
+    "type": "Property",
+    "value": 0,
+    "observedAt": "2022-02-21T23:55:00Z"
+  },
+  "culturedIn": {
+    "type": "Relationship",
+    "object": "urn:ngsi-ld:FishContainment:01",
+    "observedAt": "2022-02-21T23:55:00Z"
+  },
+  "refSpecie": {
+    "type": "Relationship",
+    "object": "urn:ngsi-ld:Specie:01"
+  },
+  "@context": [
+    "https://raw.githubusercontent.com/smart-data-models/dataModel.Aquaculture/master/context.jsonld"
+  ]
+}

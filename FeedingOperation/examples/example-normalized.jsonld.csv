@@ -1,2 +1,0 @@
-"endpoint__type_", "endpoint__value_", "hasProvider__type_", "hasProvider__value_", "version__type_", "version__value_", "@context__0_"
-"Text", "TBD", "Relationship", "urn:ngsi:provider:1", "DateTime", "1.0", "https://raw.githubusercontent.com/smart-data-models/data-models/master/context.jsonld"

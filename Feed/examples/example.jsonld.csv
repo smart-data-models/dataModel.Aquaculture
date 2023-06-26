@@ -1,2 +1,0 @@
-"id_", "type_", "name_", "location__type_", "location__coordinates__0_", "location__coordinates__1_", "@context__0_"
-"urn:ngsi-ld:Feed:1", "Feed", "grain20", "Point", "26.560462", "-108.083673", "https://raw.githubusercontent.com/smart-data-models/data-models/master/context.jsonld"
