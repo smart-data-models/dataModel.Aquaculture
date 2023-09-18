@@ -3,7 +3,14 @@ contributors:
 - name: Ahmed
   surname: ABID
   mail: ahmed.abid@egm.io
-  organization: Easy Global Market
+  organization: EGM
+  project: ifishienci
+  comments: 
+  year: 2022
+- name: Franck
+  surname: LE GALL
+  mail: franck.le-gall@egm.io
+  organization: EGM
   project: ifishienci
   comments: 
   year: 2022
