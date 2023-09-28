@@ -2,7 +2,7 @@ description: This is a compilation list of all CONTRIBUTORS across different obj
 contributors:
 - name: Ahmed
   surname: ABID
-  mail: ahmed.abid@egm.io
+  mail:
   organization: EGM
   project: ifishienci
   comments: 
