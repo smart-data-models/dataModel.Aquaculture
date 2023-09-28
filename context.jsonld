@@ -5,13 +5,27 @@
         "FeedingOperation": "https://smartdatamodels.org/dataModel.Aquaculture/FeedingOperation",
         "FishPopulation": "https://smartdatamodels.org/dataModel.Aquaculture/FishPopulation",
         "address": "https://smartdatamodels.org/address",
+        "addressCountry": "https://smartdatamodels.org/addressCountry",
+        "addressLocality": "https://smartdatamodels.org/addressLocality",
+        "addressRegion": "https://smartdatamodels.org/addressRegion",
         "alternateName": "https://smartdatamodels.org/alternateName",
+        "application": "https://smartdatamodels.org/dataModel.Aquaculture/application",
+        "applicationEntityId": "https://smartdatamodels.org/dataModel.Aquaculture/applicationEntityId",
         "areaServed": "https://smartdatamodels.org/areaServed",
+        "bbox": {
+            "@container": "@list",
+            "@id": "geojson:bbox"
+        },
         "category": "https://smartdatamodels.org/dataModel.Aquaculture/category",
+        "coordinates": {
+            "@container": "@list",
+            "@id": "geojson:coordinates"
+        },
         "dataProvider": "https://smartdatamodels.org/dataProvider",
         "dateCreated": "https://smartdatamodels.org/dateCreated",
         "dateModified": "https://smartdatamodels.org/dateModified",
         "description": "http://purl.org/dc/terms/description",
+        "district": "https://smartdatamodels.org/district",
         "endpoint": "ngsi-ld:endpoint",
         "hasProvider": "https://smartdatamodels.org/dataModel.Aquaculture/hasProvider",
         "id": "@id",
@@ -19,9 +33,13 @@
         "name": "https://smartdatamodels.org/name",
         "ngsi-ld": "https://uri.etsi.org/ngsi-ld/",
         "owner": "https://smartdatamodels.org/owner",
+        "postOfficeBoxNumber": "https://smartdatamodels.org/postOfficeBoxNumber",
+        "postalCode": "https://smartdatamodels.org/postalCode",
         "relatedSource": "https://smartdatamodels.org/dataModel.Aquaculture/relatedSource",
         "seeAlso": "https://smartdatamodels.org/seeAlso",
         "source": "https://smartdatamodels.org/source",
+        "streetAddress": "https://smartdatamodels.org/streetAddress",
+        "streetNr": "https://smartdatamodels.org/streetNr",
         "type": "@type",
         "version": "https://smartdatamodels.org/dataModel.Aquaculture/version"
     }

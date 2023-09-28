@@ -57,8 +57,5 @@
       "urn:ngsi-ld:Feed:items:JCKQ:85722433",
       "urn:ngsi-ld:Feed:items:QFIQ:55709596"
     ]
-  },
-  "@context": [
-    "https://raw.githubusercontent.com/smart-data-models/data-models/master/context.jsonld"
-  ]
+  }
 }
