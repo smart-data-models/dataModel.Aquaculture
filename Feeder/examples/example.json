@@ -8,8 +8,5 @@
       26.560462,
       -88.083673
     ]
-  },
-  "@context": [
-    "https://raw.githubusercontent.com/smart-data-models/data-models/master/context.jsonld"
-  ]
+  }
 }
