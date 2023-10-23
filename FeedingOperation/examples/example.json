@@ -1,6 +1,6 @@
 {
   "id":  "urn:ngsi-ld:breedingoperation:1",
-  "type": "BreedingOperation",
+  "type": "FeedingOperation",
   "version": "1.0",
   "hasProvider": "urn:ngsi:provider:1",
   "endpoint": "TBD"
