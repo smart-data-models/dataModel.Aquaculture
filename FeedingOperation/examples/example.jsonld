@@ -1,6 +1,6 @@
 {
     "id": "urn:ngsi-ld:breedingoperation:1",
-    "type": "BreedingOperation",
+    "type": "FeedingOperation",
     "endpoint": {
         "type": "Text",
         "value": "TBD"
