@@ -1,18 +1,9 @@
 {
-    "id": "urn:ngsi-ld:breedingoperation:1",
+    "id":  "urn:ngsi-ld:breedingoperation:1",
     "type": "FeedingOperation",
-    "endpoint": {
-        "type": "Text",
-        "value": "TBD"
-    },
-    "hasProvider": {
-        "type": "Text",
-        "value": "urn:ngsi:provider:1"
-    },
-    "version": {
-        "type": "Text",
-        "value": "1.0"
-    },
+    "version": "1.0",
+    "hasProvider": "urn:ngsi:provider:1",
+    "endpoint": "TBD",
     "@context": [
         "https://raw.githubusercontent.com/smart-data-models/data-models/master/context.jsonld",
         "https://raw.githubusercontent.com/smart-data-models/dataModel.Aquaculture/master/context.jsonld"
