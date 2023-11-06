@@ -3,11 +3,14 @@
   "type": "FeedingOperation",
   "version": {
     "type": "Text",
-    "value":"1.0"},
+    "value":"1.0"
+  },
   "hasProvider": {
     "type": "Text",
-    "value": "urn:ngsi:provider:1"},
+    "value": "urn:ngsi:provider:1"
+  },
   "endpoint": {
     "type": "Text",
-    "value":"TBD"}
+    "value":"TBD"
+  }
 }
