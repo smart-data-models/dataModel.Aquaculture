@@ -18,11 +18,11 @@
     "value": 0
   },
   "culturedIn": {
-    "type": "URI",
+    "type": "Text",
     "value": "urn:ngsi-ld:FishContainment:01"
   },
   "refSpecie": {
-    "type": "URI",
-    "object": "urn:ngsi-ld:Specie:01"
+    "type": "Text",
+    "value": "urn:ngsi-ld:Specie:01"
   }
 }
