@@ -6,16 +6,16 @@
     "value": "this entity defines a FishPopulation"
   },
   "fishRemoved": {
-    "type": "Number",
-    "value": 0
+    "type": "Boolean",
+    "value": false
   },
   "initialNumber": {
     "type": "Number",
     "value": 50
   },
   "bodyMasse": {
-    "type": "Number",
-    "value": 0
+    "type": "Boolean",
+    "value": false
   },
   "culturedIn": {
     "type": "Text",
