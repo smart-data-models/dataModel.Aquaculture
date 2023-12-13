@@ -60,8 +60,12 @@
     "relatedSource": {
         "type": "Property",
         "value": [
-            "urn:ngsi-ld:Feeder:items:JCKQ:85722433",
-            "urn:ngsi-ld:Feeder:items:QFIQ:55709596"
+              {
+                "applicationEntityId": "urn:ngsi-ld:Feeder:items:JCKQ:85722433"
+              },
+              {
+                "applicationEntityId": "urn:ngsi-ld:Feeder:items:QFIQ:55709596"
+              }
         ]
     },
     "@context": [
