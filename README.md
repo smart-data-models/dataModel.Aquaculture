@@ -15,7 +15,7 @@ The following entity types are available:
 
 
 ### Contributors
-[Link](https://github.com/smart-data-models/dataModel.Aquaculture/blob/master/CONTRIBUTORS.yaml) to the 1 current contributors of the data models of this Subject.
+[Link](https://github.com/smart-data-models/dataModel.Aquaculture/blob/master/CONTRIBUTORS.yaml) to the 2 current contributors of the data models of this Subject.
 
 
 ### Contribution
