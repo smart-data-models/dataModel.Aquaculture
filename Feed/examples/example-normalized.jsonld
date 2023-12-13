@@ -59,8 +59,12 @@
     "relatedSource": {
         "type": "Property",
         "value": [
-            "urn:ngsi-ld:Feed:items:JCKQ:85722433",
-            "urn:ngsi-ld:Feed:items:QFIQ:55709596"
+              {
+                "applicationEntityId": "urn:ngsi-ld:Feed:items:JCKQ:85722433"
+              },
+              {
+                "applicationEntityId": "urn:ngsi-ld:Feed:items:QFIQ:55709596"
+              }
         ]
     },
     "type": "Feed",
