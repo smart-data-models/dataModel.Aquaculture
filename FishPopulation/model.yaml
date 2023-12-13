@@ -65,6 +65,16 @@ FishPopulation:
       x-ngsi:
         model: https://schema.org/Text
         type: Property
+    bodyMasse:
+      description: The average body masse cultured fishes
+      type: number
+      x-ngsi:
+        type: Property
+    culturedIn:
+      description: Reference to the FishContainment
+      type: number
+      x-ngsi:
+        type: Relationship
     dataProvider:
       description: A sequence of characters identifying the provider of the harmonised data entity
       type: string
@@ -87,6 +97,11 @@ FishPopulation:
       type: string
       x-ngsi:
         type: Property
+    fishRemoved:
+      description: Number of removed fishes
+      type: number
+      x-ngsi:
+        type: Property
     id:
       anyOf:
         - description: Identifier format of any NGSI entity
@@ -102,6 +117,11 @@ FishPopulation:
           x-ngsi:
             type: Property
       description: Unique identifier of the entity
+      x-ngsi:
+        type: Property
+    initialNumber:
+      description: Number of initial number of cultured fishes
+      type: number
       x-ngsi:
         type: Property
     location:
@@ -296,6 +316,11 @@ FishPopulation:
       type: array
       x-ngsi:
         type: Property
+    refSpecie:
+      description: Reference to the Specie
+      type: number
+      x-ngsi:
+        type: Relationship
     relatedSource:
       description: List of IDs the current entity may have in external applications
       items:
@@ -314,9 +339,9 @@ FishPopulation:
                 type: string
                 x-ngsi:
                   type: Property
-            description: Unique identifier of the entity
+            description: Identifier of the entity describing the external application
             x-ngsi:
-              type: Property
+              type: Relationship
           applicationEntityId:
             description: Identifier in the external application
             type: string
@@ -357,7 +382,7 @@ FishPopulation:
     - refSpecie
   type: object
   x-derived-from: ""
-  x-disclaimer: 'Redistribution and use in source and binary forms, with or without modification, are permitted  provided that the license conditions are met. Copyleft (c) 2022 Contributors to Smart Data Models Program'
+  x-disclaimer: 'Redistribution and use in source and binary forms, with or without modification, are permitted  provided that the license conditions are met. Copyleft (c) 2023 Contributors to Smart Data Models Program'
   x-license-url: https://github.com/smart-data-models/dataModel.Aquaculture/blob/master/FishPopulation/LICENSE.md
   x-model-schema: https://smart-data-models.github.io/dataModel.Aquaculture/FishContaiment/schema.json
   x-model-tags: ""
