@@ -1,3 +1,3 @@
 /* (Beta) Export of data model FishPopulation of the subject dataModel.Aquaculture for a PostgreSQL database. Pending translation of enumerations and multityped attributes */
 CREATE TYPE FishPopulation_type AS ENUM ('FishPopulation');
-CREATE TABLE FishPopulation (address JSON, alternateName TEXT, areaServed TEXT, dataProvider TEXT, dateCreated TIMESTAMP, dateModified TIMESTAMP, description TEXT, id TEXT PRIMARY KEY, location JSON, name TEXT, owner JSON, relatedSource JSON, seeAlso JSON, source TEXT, type FishPopulation_type);
+CREATE TABLE FishPopulation (address JSON, alternateName TEXT, areaServed TEXT, bodyMasse NUMERIC, culturedIn NUMERIC, dataProvider TEXT, dateCreated TIMESTAMP, dateModified TIMESTAMP, description TEXT, fishRemoved NUMERIC, id TEXT PRIMARY KEY, initialNumber NUMERIC, location JSON, name TEXT, owner JSON, refSpecie NUMERIC, relatedSource JSON, seeAlso JSON, source TEXT, type FishPopulation_type);
