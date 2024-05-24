@@ -24,31 +24,36 @@
 #         curl -X GET http://localhost:1026/ngsi-ld/v1/entities?local=true&limit=1000
 #         
 #         # now the python code you can use to insert some value in the context broker according to the data model
+#         # Version Warning! 
+#         # This code is designed to work with the version 0.8 of pysmartdatamodels or later
+#         # to work with earlier version you need to replace the import instruction for
+#         # from pysmartdatamodels import pysmartdatamodels as sdm
 #         
-from pysmartdatamodels import pysmartdatamodels as sdm
+#         
+import pysmartdatamodels as sdm
 import subprocess
 serverUrl = "http://localhost:1026" # supposed that your broker is installed in localhost. Edit to match your configuration
 dataModel = "FishPopulation"
 subject = "dataModel.Aquaculture"
-fishRemoved = {'type': 'Property', 'value': 0, 'observedAt': '2022-02-21T23:55:00Z'}
+fishRemoved = 0
 attribute = "fishRemoved"
 value = fishRemoved
 # The next line creates the query for inserting this attribute in a NGSI-LD context broker if the attribute does not exist it creates it
 print(sdm.update_broker(dataModel, subject, attribute, value, serverUrl=serverUrl, updateThenCreate=True))
 
-initialNumber = {'type': 'Property', 'value': 50, 'observedAt': '2022-01-01T23:55:00Z'}
+initialNumber = 50
 attribute = "initialNumber"
 value = initialNumber
 # The next line creates the query for inserting this attribute in a NGSI-LD context broker if the attribute does not exist it creates it
 print(sdm.update_broker(dataModel, subject, attribute, value, serverUrl=serverUrl, updateThenCreate=True))
 
-bodyMasse = {'type': 'Property', 'value': 0, 'observedAt': '2022-02-21T23:55:00Z'}
+bodyMasse = 0
 attribute = "bodyMasse"
 value = bodyMasse
 # The next line creates the query for inserting this attribute in a NGSI-LD context broker if the attribute does not exist it creates it
 print(sdm.update_broker(dataModel, subject, attribute, value, serverUrl=serverUrl, updateThenCreate=True))
 
-culturedIn = {'type': 'Relationship', 'object': 'urn:ngsi-ld:FishContainment:01', 'observedAt': '2022-02-21T23:55:00Z'}
+culturedIn = urn:ngsi-ld:FishContainment:01
 attribute = "culturedIn"
 value = culturedIn
 # The next line creates the query for inserting this attribute in a NGSI-LD context broker if the attribute does not exist it creates it
