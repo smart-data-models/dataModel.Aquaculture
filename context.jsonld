@@ -14,27 +14,32 @@
         "areaServed": "https://smartdatamodels.org/areaServed",
         "bbox": {
             "@container": "@list",
-            "@id": "geojson:bbox"
+            "@id": "https://purl.org/geojson/vocab#bbox"
         },
+        "bodyMasse": "https://smartdatamodels.org/dataModel.Aquaculture/bodyMasse",
         "category": "https://smartdatamodels.org/dataModel.Aquaculture/category",
         "coordinates": {
             "@container": "@list",
-            "@id": "geojson:coordinates"
+            "@id": "https://purl.org/geojson/vocab#coordinates"
         },
+        "culturedIn": "https://smartdatamodels.org/dataModel.Aquaculture/culturedIn",
         "dataProvider": "https://smartdatamodels.org/dataProvider",
         "dateCreated": "https://smartdatamodels.org/dateCreated",
         "dateModified": "https://smartdatamodels.org/dateModified",
         "description": "http://purl.org/dc/terms/description",
         "district": "https://smartdatamodels.org/district",
-        "endpoint": "ngsi-ld:endpoint",
+        "endpoint": "https://uri.etsi.org/ngsi-ld/endpoint",
+        "fishRemoved": "https://smartdatamodels.org/dataModel.Aquaculture/fishRemoved",
         "hasProvider": "https://smartdatamodels.org/dataModel.Aquaculture/hasProvider",
         "id": "@id",
-        "location": "ngsi-ld:location",
+        "initialNumber": "https://smartdatamodels.org/dataModel.Aquaculture/initialNumber",
+        "location": "https://uri.etsi.org/ngsi-ld/location",
         "name": "https://smartdatamodels.org/name",
         "ngsi-ld": "https://uri.etsi.org/ngsi-ld/",
         "owner": "https://smartdatamodels.org/owner",
         "postOfficeBoxNumber": "https://smartdatamodels.org/postOfficeBoxNumber",
         "postalCode": "https://smartdatamodels.org/postalCode",
+        "refSpecie": "https://smartdatamodels.org/dataModel.Aquaculture/refSpecie",
         "relatedSource": "https://smartdatamodels.org/dataModel.Aquaculture/relatedSource",
         "seeAlso": "https://smartdatamodels.org/seeAlso",
         "source": "https://smartdatamodels.org/source",
