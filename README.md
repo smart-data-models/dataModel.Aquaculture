@@ -20,5 +20,3 @@ The following entity types are available:
 
 ### Contribution
 You can raise an [issue](https://github.com/smart-data-models/dataModel.Aquaculture/issues) or submit your [PR](https://github.com/smart-data-models/dataModel.Aquaculture/pulls) on existing data models
-
-
