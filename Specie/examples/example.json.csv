@@ -1,0 +1,2 @@
+"id", "type", "absorptionRatio", "appetiteFactor", "description", "digestionDelay", "hasFishPopulation", "ingestionDelay", "midgutMaxdur", "midgutVolume", "name", "stomachCapacity", "transportPattern", "waterUptake"
+"urn:ngsi-ld:Specie:1", "Specie", "0", "3", "this entity defines sientific parameters of a Specie", "23", "urn:ngsi-ld:FishPopulation:01", "3", "4", "10.2", "salmon", "23", "1.2", "2"

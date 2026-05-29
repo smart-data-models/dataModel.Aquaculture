@@ -1,0 +1,2 @@
+"id", "type", "co2", "pH", "processes__0", "processes__1", "processes__2", "redoxPotential", "refFishContainment__0", "refFishContainment__1", "totalGasPressure", "waterConsumption"
+"urn:ngsi-ld:Sump:1", "Sump", "7", "7", "O3 cone", "02 cone", "UV filter", "80", "urn:ngsi-ld:FishContainment:01", "urn:ngsi-ld:FishContainment:02", "1", "10"

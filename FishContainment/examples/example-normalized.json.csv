@@ -1,0 +1,2 @@
+"id", "type", "category__value", "depth__value", "depth__metadata__unitCode__value", "dissolvedOxygen__value", "dissolvedOxygen__metadata__unitCode__value", "pH__value", "salinity__value", "temperature__value__0", "temperature__value__1", "refSump__value", "refFarm__value"
+"urn:ngsi-ld:FishContainment:1", "FishContainment", "Tank", "10", "MTR", "80", "P1", "7", "7", "15.2", "16.1", "urn:ngsi-ld:Sump:1", "urn:ngsi-ld:Farm:1"

@@ -1,0 +1,52 @@
+{
+  "id": "urn:ngsi-ld:Specie:1",
+  "type": "Specie",
+  "name": {
+    "type": "Text",
+    "value": "salmon"
+  },
+  "description": {
+    "type": "Text",
+    "value": "Scientific parameters of a fish species used in aquaculture."
+  },
+  "absorptionRatio": {
+    "type": "Number",
+    "value": 0
+  },
+  "stomachCapacity": {
+    "type": "Number",
+    "value": 23
+  },
+  "waterUptake": {
+    "type": "Number",
+    "value": 2
+  },
+  "midgutMaxdur": {
+    "type": "Number",
+    "value": 4
+  },
+  "ingestionDelay": {
+    "type": "Number",
+    "value": 3
+  },
+  "transportPattern": {
+    "type": "Number",
+    "value": 1.2
+  },
+  "appetiteFactor": {
+    "type": "Number",
+    "value": 3
+  },
+  "midgutVolume": {
+    "type": "Number",
+    "value": 10.2
+  },
+  "digestionDelay": {
+    "type": "Number",
+    "value": 23
+  },
+  "hasFishPopulation": {
+    "type": "Text",
+    "value": "urn:ngsi-ld:FishPopulation:01"
+  }
+}

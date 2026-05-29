@@ -10,7 +10,13 @@ The following entity types are available:
 
 - [FeedingOperation](https://github.com/smart-data-models/dataModel.Aquaculture/blob/master/FeedingOperation/README.md). Feeding operation on a group of animals
 
+- [FishContainment](https://github.com/smart-data-models/dataModel.Aquaculture/blob/master/FishContainment/README.md). FishContainment entity represents a fish containment unit (tank, cage, pond, or any enclosed water structure) used in aquaculture to house and monitor fish populations and water quality parameters
+
 - [FishPopulation](https://github.com/smart-data-models/dataModel.Aquaculture/blob/master/FishPopulation/README.md). 
+
+- [Specie](https://github.com/smart-data-models/dataModel.Aquaculture/blob/master/Specie/README.md). Specie entity describes scientific and physiological parameters of an aquaculture fish species, including digestion, feeding capacity, and biological growth-related properties used for simulation and monitoring
+
+- [Sump](https://github.com/smart-data-models/dataModel.Aquaculture/blob/master/Sump/README.md). Sump entity represents a water treatment and recirculation unit in an aquaculture facility, monitoring water quality parameters such as pH, CO2, redox potential, and gas pressure to ensure optimal conditions for fish containment.
 
 
 

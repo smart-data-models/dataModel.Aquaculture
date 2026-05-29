@@ -1,0 +1,109 @@
+{
+  "id": "urn:ngsi-ld:FishContainment:1",
+  "type": "FishContainment",
+  "category": {
+    "type": "Property",
+    "value": "Tank"
+  },
+  "location": {
+    "type": "GeoProperty",
+    "value": {
+      "type": "Point",
+      "coordinates": [
+        0,
+        0
+      ]
+    }
+  },
+  "refSump": {
+    "type": "Relationship",
+    "object": "urn:ngsi-ld:Sump:1"
+  },
+  "refFarm": {
+    "type": "Relationship",
+    "object": "urn:ngsi-ld:Farm:1"
+  },
+  "depth": {
+    "type": "Property",
+    "value": 10,
+    "unitCode": "MTR"
+  },
+  "videoStream": {
+    "type": "Property",
+    "value": "rtsp://example.com/fishcam"
+  },
+  "temperature": {
+    "type": "Property",
+    "value": 15.2,
+    "unitCode": "CEL",
+    "observedAt": "2020-06-26T21:32:52Z"
+  },
+  "dissolvedOxygen": {
+    "type": "Property",
+    "value": 80,
+    "unitCode": "P1",
+    "observedAt": "2020-06-26T21:32:52Z"
+  },
+  "pH": {
+    "type": "Property",
+    "value": 7,
+    "unitCode": "Q30",
+    "observedAt": "2020-06-26T21:32:52Z"
+  },
+  "redoxPotential": {
+    "type": "Property",
+    "value": 7,
+    "unitCode": "2Z",
+    "observedAt": "2020-06-26T21:32:52Z"
+  },
+  "turbidity": {
+    "type": "Property",
+    "value": 7,
+    "unitCode": "NTU",
+    "observedAt": "2020-06-26T21:32:52Z"
+  },
+  "conductivity": {
+    "type": "Property",
+    "value": 7,
+    "unitCode": "S4",
+    "observedAt": "2020-06-26T21:32:52Z"
+  },
+  "salinity": {
+    "type": "Property",
+    "value": 7,
+    "unitCode": "GL",
+    "observedAt": "2020-06-26T21:32:52Z"
+  },
+  "totalDissolvedSolids": {
+    "type": "Property",
+    "value": 35404,
+    "unitCode": "G42",
+    "observedAt": "2020-06-26T21:32:52Z"
+  },
+  "marineCurrents": {
+    "type": "Property",
+    "value": "NA"
+  },
+  "fishDensity": {
+    "type": "Property",
+    "value": -26.0,
+    "observedAt": "2021-10-19T14:22:19Z"
+  },
+  "fishSpeed": {
+    "type": "Property",
+    "value": 25.0,
+    "observedAt": "2021-10-19T14:22:19Z"
+  },
+  "fishDirection": {
+    "type": "Property",
+    "value": "SW",
+    "observedAt": "2021-10-19T14:22:19Z"
+  },
+  "startedAt": {
+    "type": "Property",
+    "value": "2021-05-04T08:30:00Z"
+  },
+  "@context": [
+    "https://raw.githubusercontent.com/smart-data-models/data-models/master/context.jsonld"
+  ]
+}
